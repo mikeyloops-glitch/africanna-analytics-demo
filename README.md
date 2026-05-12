@@ -19,7 +19,7 @@ Static website demo for AfriCanna Analytics, a South African cannabis analytical
 
 This project includes a GitHub Pages workflow. Once pushed to `main`, GitHub Actions can publish the static site as a demo link.
 
-Current demo version: `full-scope-v6`
+Current demo version: `full-scope-v7`
 
 ## Launch note
 
