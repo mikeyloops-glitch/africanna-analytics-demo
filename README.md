@@ -19,7 +19,7 @@ Static website demo for AfriCanna Analytics, a South African cannabis analytical
 
 This project includes a GitHub Pages workflow. Once pushed to `main`, GitHub Actions can publish the static site as a demo link.
 
-Current demo version: `phase1-spacing-v4`
+Current demo version: `hero-spacing-v5`
 
 ## Launch note
 
