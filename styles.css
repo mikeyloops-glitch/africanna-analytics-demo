@@ -59,6 +59,7 @@ a {
   background: rgba(251, 253, 249, 0.87);
   border-bottom: 1px solid rgba(221, 229, 223, 0.85);
   backdrop-filter: blur(18px);
+  overflow: visible;
 }
 
 .brand {
@@ -73,11 +74,13 @@ a {
 }
 
 .main-nav {
+  position: relative;
   display: flex;
   align-items: center;
   gap: clamp(14px, 2.4vw, 34px);
   color: var(--muted);
   font-size: 0.92rem;
+  overflow: visible;
 }
 
 .main-nav a {
@@ -92,6 +95,10 @@ a {
 
 .nav-item {
   position: relative;
+}
+
+.nav-item--mega {
+  position: static;
 }
 
 .nav-item > a {
@@ -112,8 +119,9 @@ a {
 .mega-menu {
   position: absolute;
   top: calc(100% + 18px);
-  left: -18px;
-  width: min(760px, calc(100vw - 40px));
+  right: 0;
+  left: auto;
+  width: min(760px, calc(100vw - 56px));
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1px;
