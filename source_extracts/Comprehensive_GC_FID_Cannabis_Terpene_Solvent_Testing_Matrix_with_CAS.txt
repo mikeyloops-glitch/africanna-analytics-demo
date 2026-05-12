@@ -1,0 +1,114 @@
+﻿-- Sheet: README --
+GC-FID Cannabis Testing Workbook – Terpenes, Residual Solvents, Optional Potency Development
+Workbook purpose | FID-focused planning workbook for cannabis sample types, terpene standards, residual solvent standards, sample prep, calibration planning, and optional cannabinoid method development.
+Primary FID applications | Terpene profiling and residual solvent analysis.
+Optional FID development | Cannabinoid potency can be explored by GC-FID, but HPLC is normally preferred because acidic cannabinoids decarboxylate in a heated GC inlet/column unless derivatized or intentionally reported as neutral equivalents.
+Legal note | Testing requirements vary by jurisdiction, license type, product category, and market. Treat the matrix as a technical planning sheet, not legal advice.
+Reporting units | Terpenes and residual solvents are commonly reported as mg/g, ppm (µg/g), or % w/w depending analyte and regulation.
+Two-FID setup suggestion | FID #1: headspace GC-FID for residual solvents. FID #2: liquid injection or headspace/SPME GC-FID for terpenes.
+Version date | 2026-05-08
+Prepared for | Internal laboratory planning / method development
+CAS number note | CAS numbers were added to the Terpene Standard Components and Residual Solvent Components sheets. For stereospecific standards, confirm the CAS on the supplier certificate of analysis before purchasing/calibration.
+Terpene CAS source anchor | Restek cannabis terpene standard listing / PubChem substance records
+Solvent CAS source anchor | PubChem substance records / USP <467> residual solvent class references
+
+-- Sheet: Sample Type Matrix --
+Sample Type | Product Category | Terpenes by FID | Residual Solvents by FID | Optional Cannabinoid Potency by FID | Typical Analytical Portion | Recommended FID Workflow | Key Notes
+Dried flower / buds | Inhalable flower | Yes | No / usually not | Optional dev only | 0.20–0.50 g homogenized composite; weigh 50–200 mg into vial/extraction | Terpenes by direct solvent extraction GC-FID or HS-SPME/HS-GC-FID | No solvent extraction process, so residual solvents usually not a primary FID compliance target unless specifically required
+Pre-rolls | Inhalable flower product | Yes | No / usually not | Optional dev only | Open multiple units; composite and homogenize; 50–200 mg analytical portion | Same as flower | Paper/cone should generally be excluded unless method scope includes whole product
+Kief / dry sift | Solventless concentrate | Yes | No | Optional dev only | Homogenize gently; 20–100 mg analytical portion | High potency trichome matrix; dilute appropriately | Higher concentration may need greater dilution
+Bubble hash / ice-water hash | Solventless concentrate | Yes | No | Optional dev only | Homogenize; 20–100 mg analytical portion | Terpenes by extraction or headspace; residual solvents not applicable | Moisture can affect mg/g reporting; document dry/as-received basis
+Rosin | Solventless concentrate | Yes | No | Optional dev only | Warm gently only if needed; weigh 20–100 mg; dilute rapidly | Terpenes by GC-FID; residual solvents generally not applicable | Avoid heat that changes volatile profile
+Live rosin | Solventless high-terpene concentrate | Yes | No | Optional dev only | Keep cold until prep; weigh 20–100 mg; seal quickly | High terpene load; use dilution to stay in calibration range | Very volatile-rich; sample handling is critical
+Hydrocarbon extract: BHO shatter/wax/badder/crumble | Solvent-based concentrate | Yes | Yes | Optional dev only | Weigh 20–100 mg for terpene extract; weigh equivalent validated portion for HS solvent vial | Terpenes + residual hydrocarbons are both strong FID applications | Residual solvent panel must include propane, n-butane, iso-butane at minimum
+Live resin | Hydrocarbon high-terpene concentrate | Yes | Yes | Optional dev only | Keep cold; weigh 20–100 mg; fast sealed prep | Terpenes and hydrocarbons both high priority | Often high terpene and residual gas risk; use split/dilution
+Sauce / diamonds in sauce | Hydrocarbon concentrate | Yes | Yes | Optional dev only | Subsample sauce and crystalline fraction consistently; 20–100 mg | FID works for terps/solvents; sample heterogeneity is main issue | Document whether sample is homogenized or phase-specific
+Distillate | Refined extract | Optional / often low unless re-terped | Yes | Optional dev only | Weigh 20–100 mg; dilute; for solvent HS weigh validated portion | Residual solvents important; terpene profile may be low or added | High cannabinoid load; avoid overloading GC inlet/column
+Vape cartridge oil / disposable oil | Inhalable oil | Yes | Yes | Optional dev only | Remove oil from cartridge; homogenize; 20–100 mg | Terpenes and residual solvents both relevant by FID | Include added botanical/cannabis terpenes; hardware leachables are outside FID terp/solvent scope
+Ethanol extract / crude oil | Solvent-based extract | Optional | Yes | Optional dev only | Weigh 20–100 mg; HS vial for solvents | Residual ethanol and co-solvents by HS-GC-FID | High ethanol expected depending process stage
+Tincture | Liquid extract | Optional / formulation-dependent | Yes for ethanol-containing products | Optional dev only | Mix thoroughly; aliquot by mass or volume; dilute if needed | Ethanol may be both solvent and formulation carrier | Report residual solvent vs declared excipient carefully
+Infused edible | Food matrix | Usually no for FID terp profile | Usually no / optional if solvent process risk | Optional dev only | Homogenize entire serving/batch composite; complex cleanup needed | FID terp/solvent is possible but matrix interferences likely | Potency usually HPLC; FID development is higher risk
+Beverage / emulsion | Liquid edible | Usually no | Usually no / optional | Optional dev only | Shake/homogenize; aliquot; consider phase separation | FID only if volatile solvents/flavors are target | Water matrix may require headspace approach
+Topical / balm / lotion | Non-inhalable formulation | Optional | Optional / formulation-dependent | Optional dev only | Homogenize; solvent extraction may be complex | FID can target volatile residual solvents if required | Waxes/fragrances can interfere with terpene FID profile
+Capsule / tablet | Oral product | Usually no | Optional if solvent process risk | Optional dev only | Composite units; extract active fraction | FID generally less central than HPLC potency | Use only if volatile solvent target is relevant
+
+-- Sheet: Terpene Standard Components --
+Core 18? | Standard Component | CAS Number | Common Name | Chemical Class | Formula | Approx. GC Elution Zone | FID/Method Notes
+Yes | α-Pinene | 80-56-8 | Alpha-pinene | Monoterpene hydrocarbon | C10H16 | Early | Common pine note; volatile; resolved from β-pinene on appropriate column
+Expanded | Camphene | 79-92-5 | Camphene | Monoterpene hydrocarbon | C10H16 | Early | Often included in certified terpene mixes; useful for pine/woody profile
+Yes | β-Pinene | 127-91-3 | Beta-pinene | Monoterpene hydrocarbon | C10H16 | Early | Common pine/herbal terpene; critical isomer pair with α-pinene
+Yes | β-Myrcene | 123-35-3 | Myrcene | Monoterpene hydrocarbon | C10H16 | Early-mid | Frequently dominant in cannabis flower; volatile and prone to loss during handling
+Yes | 3-Carene | 13466-78-9 | Delta-3-carene | Monoterpene hydrocarbon | C10H16 | Early-mid | Often present in commercial standard mixes; sweet/woody note
+Yes | α-Terpinene | 99-86-5 | Alpha-terpinene | Monoterpene hydrocarbon | C10H16 | Mid | Isomeric monoterpene; may require careful chromatographic resolution
+Yes | p-Cymene | 99-87-6 | p-Cymene | Aromatic monoterpenoid | C10H14 | Mid | Aromatic hydrocarbon often reported with terpene panels
+Yes | D-Limonene | 5989-27-5 | Limonene | Monoterpene hydrocarbon | C10H16 | Mid | Common citrus terpene; high-abundance analyte in many strains
+Yes | Eucalyptol | 470-82-6 | 1,8-Cineole | Oxygenated monoterpene | C10H18O | Mid | Oxygenated volatile; common in expanded panels
+Yes | γ-Terpinene | 99-85-4 | Gamma-terpinene | Monoterpene hydrocarbon | C10H16 | Mid | Isomeric monoterpene; commonly included in 20+ component mixes
+Yes | Terpinolene | 586-62-9 | Terpinolene | Monoterpene hydrocarbon | C10H16 | Mid-late | Important cannabis aroma marker; sometimes dominant in specific cultivars
+Yes | Linalool | 78-70-6 | Linalool | Oxygenated monoterpene alcohol | C10H18O | Mid-late | Floral terpene alcohol; good FID response but needs calibration
+Yes | Isopulegol | 89-79-2 | Isopulegol | Oxygenated monoterpene alcohol | C10H18O | Late | Often included in cannabis terpene reference mixes
+Yes | Geraniol | 106-24-1 | Geraniol | Oxygenated monoterpene alcohol | C10H18O | Late | Rose/floral terpene alcohol; optional-expanded but useful
+Yes | β-Caryophyllene | 87-44-5 | Beta-caryophyllene | Sesquiterpene hydrocarbon | C15H24 | Late | Major cannabis sesquiterpene; high-boiling; later elution
+Yes | α-Humulene | 6753-98-6 | Alpha-humulene | Sesquiterpene hydrocarbon | C15H24 | Late | Often co-reported with β-caryophyllene; hoppy/woody note
+Yes | Nerolidol | 7212-44-4 | Nerolidol | Oxygenated sesquiterpene alcohol | C15H26O | Very late | May be cis/trans; later elution and less volatile
+Expanded | Guaiol | 489-86-1 | Guaiol | Oxygenated sesquiterpene alcohol | C15H26O | Very late | Often present in cannabis CRM panels; woody note
+Yes | α-Bisabolol | 23089-26-1 | Bisabolol | Oxygenated sesquiterpene alcohol | C15H26O | Very late | High-boiling terpene alcohol; commonly included in cannabis panels
+Yes | Caryophyllene oxide | 1139-30-6 | Caryophyllene oxide | Oxygenated sesquiterpene | C15H24O | Very late | Oxidation product; included in expanded panels; high-boiling
+
+-- Sheet: Residual Solvent Components --
+Standard Component | CAS Number | Solvent Group | Priority in Cannabis FID Work | FID/Method Notes
+Methane | 74-82-8 | Hydrocarbon/gas | Optional/rare | Only if method/standard supports; often not part of routine cannabis solvent panels
+Ethane | 74-84-0 | Hydrocarbon/gas | Optional/rare | Gas-phase component; method dependent
+Propane | 74-98-6 | Hydrocarbon/gas | Critical for hydrocarbon extracts | HS-GC-FID target; common extraction solvent
+n-Butane | 106-97-8 | Hydrocarbon/gas | Critical for BHO/resin | HS-GC-FID target; common extraction solvent
+iso-Butane | 75-28-5 | Hydrocarbon/gas | Critical for BHO/resin | Often reported separately from n-butane if resolved
+Pentane | 109-66-0 | Class 3 solvent | Common/possible | May appear from processing or solvent blends
+Hexane | 110-54-3 | Class 2 solvent | Important safety target | More toxic than Class 3; include if used or required
+Heptane | 142-82-5 | Class 3 solvent | Possible | Extraction/process solvent in some workflows
+Methanol | 67-56-1 | Class 2 solvent | Important safety target | Include for general residual solvent screening
+Ethanol | 64-17-5 | Class 3 solvent | Very common | Frequently used in tinctures/extract processing; FID-friendly
+Isopropanol | 67-63-0 | Class 3 solvent | Common/possible | Processing/cleaning solvent; include in general panel
+Acetone | 67-64-1 | Class 3 solvent | Common/possible | Volatile oxygenated solvent; FID-friendly
+Acetonitrile | 75-05-8 | Class 2 solvent | Possible lab/process solvent | May be included in expanded residual solvent panels
+Ethyl acetate | 141-78-6 | Class 3 solvent | Possible | Extraction/process solvent; common in residual solvent mixes
+Toluene | 108-88-3 | Class 2 solvent | Important safety target | Aromatic solvent; include in broad safety panel
+Xylenes | 1330-20-7 | Class 2 solvent | Important safety target | Mixed xylenes CAS; o-/m-/p-xylene may be reported separately depending method resolution
+Dichloromethane | 75-09-2 | Class 2 solvent | Important safety target | Halogenated solvent; FID response lower than hydrocarbons but measurable
+Chloroform | 67-66-3 | Class 2 solvent | Important safety target | Halogenated solvent; include only if method validates sensitivity
+Benzene | 71-43-2 | Class 1 solvent | Critical safety target | Avoid/use very low limits; if regulated, GC-MS confirmation may be needed
+1,2-Dichloroethane | 107-06-2 | Class 1 solvent | Critical safety target | Low limit target; may require confirmation beyond FID
+
+-- Sheet: FID Sample Prep --
+Workflow | Best For | Typical Prep | Vial / Injection Detail | Output / Reporting
+Terpenes – solvent extraction GC-FID | Flower, pre-rolls, kief, hash, rosin, extracts, vape oils | Homogenize sample; weigh 50–200 mg flower or 20–100 mg concentrate; extract into validated solvent such as ethanol, methanol, hexane, or isooctane; vortex/sonicate briefly; dilute to calibration range; filter/centrifuge if needed. | Use standard GC autosampler vial with insert where appropriate; minimize headspace, seal rapidly, keep cool; inject liquid aliquot by split injection. | Individual terpenes in mg/g or % w/w; total terpenes = sum of quantified analytes.
+Terpenes – HS/SPME GC-FID | Flower and volatile-rich concentrates where minimal solvent handling is desired | Homogenize gently; weigh validated portion, often 50–200 mg, into headspace vial; optionally add salt or internal standard depending method; equilibrate at validated temperature/time. | Use crimp/screw 10–20 mL headspace vial with PTFE/silicone septum; seal immediately to retain volatiles; sample headspace or SPME fiber. | Volatile terpene profile; good for preserving native headspace but must be validated for quantitation.
+Residual solvents – HS-GC-FID | Hydrocarbon extracts, live resin, distillate, vape oil, tinctures, ethanol extracts | Weigh validated portion, often 50–500 mg depending matrix and limits, into headspace vial; add diluent/internal standard if method uses matrix dissolution; seal immediately. | Use 10–20 mL headspace vial; equilibrate under validated temperature/time/agitation; inject headspace gas to GC-FID. | Residual solvents in ppm or µg/g; compare to jurisdictional limits/specification.
+Optional cannabinoids – GC-FID development | R&D only unless validated and accepted by target jurisdiction | Extract cannabinoids into solvent; consider derivatization if acidic cannabinoids must be quantified separately; otherwise GC heat converts acidic forms toward neutral cannabinoids. | Liquid injection GC-FID; higher-boiling method with inlet/column conditions suitable for cannabinoids. | Potency in mg/g or % w/w; HPLC is usually preferred for compliance potency.
+
+-- Sheet: Calibration Plan --
+Method | FID Instrument | Standard Mix | Calibration Levels | Internal Standard / QC | Primary Column/Technique | Notes
+Terpenes | FID #2 | Core 18 terpene mix plus optional expanded components such as camphene and guaiol | Minimum 5 levels across expected sample range; dilute high-terpene samples to bracket calibration | Use suitable terpene or hydrocarbon internal standard not present in cannabis matrix; include continuing calibration verification | GC-FID liquid injection or HS/SPME; low-bleed nonpolar/semi-polar capillary column | Confirm resolution of pinene isomers, limonene/eucalyptol region, and late sesquiterpenes.
+Residual solvents | FID #1 | Residual solvent gas/liquid mix including propane, n-butane, iso-butane, ethanol, methanol, acetone, isopropanol, pentane, hexane, heptane, toluene, xylenes as applicable | Minimum 5 levels around regulatory/specification thresholds; prepare in matrix/diluent compatible with HS | Use internal standard such as 1-propanol, t-butanol, or another validated compound absent from samples | Headspace GC-FID; gas sampling from sealed HS vial | Run blank, solvent blank, matrix spike, duplicate, and CCV. Hydrocarbon gases need appropriate certified gas/liquid standards.
+Optional cannabinoid potency | Either FID after development | THC, THCA, CBD, CBDA, CBG, CBGA, CBN, CBC standards if method scope requires | Minimum 5–7 levels; high concentration range versus terp/solvent methods | Use cannabinoid surrogate/internal standard if available; derivatization QC if used | GC-FID high-boiling method; derivatization recommended for acidic cannabinoids | Not the preferred compliance approach; HPLC avoids thermal decarboxylation and better separates acidic/neutral cannabinoids.
+
+-- Sheet: Optional Potency Dev --
+Cannabinoid / Analyte | FID Development Status | Issue to Control | Recommended Note
+Δ9-THC | Possible by GC-FID | High-boiling analyte; inlet/column conditions and calibration required | Neutral THC can be quantified by GC-FID if method is validated.
+THCA | Problematic without derivatization | Thermal decarboxylation in GC converts acidic THCA toward THC | Use derivatization or HPLC if separate THCA result is required.
+CBD | Possible by GC-FID | Requires chromatographic separation from THC and other cannabinoids | Can be quantified with standards, but HPLC is preferred.
+CBDA | Problematic without derivatization | Thermal decarboxylation toward CBD | Use derivatization or HPLC for acidic cannabinoid reporting.
+CBG | Possible by GC-FID | Separation and high-boiling conditions | Useful expanded potency target after method validation.
+CBGA | Problematic without derivatization | Thermal decarboxylation toward CBG | HPLC preferred for acidic cannabinoid reporting.
+CBN | Possible by GC-FID | Separation from other neutral cannabinoids | Useful degradation/age marker.
+CBC | Possible by GC-FID | Separation from CBD/THC region depending column | Expanded potency target after method validation.
+
+-- Sheet: Summary --
+FID Method Planning Summary
+Metric | Formula / Value | Interpretation
+Total sample types listed | 17 | Number of cannabis product/sample matrices covered
+Sample types with direct terpene FID relevance | 14 | Count where terpene analysis is yes or technically relevant
+Sample types with direct residual solvent FID relevance | 9 | Count where residual solvent analysis is yes or technically relevant
+Core terpene components | 18 | Core FID terpene calibration components
+Expanded terpene components | 2 | Additional optional components to include if standard mix/method supports them
+Residual solvent components listed | 20 | Solvent calibration targets listed
+

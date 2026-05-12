@@ -1,0 +1,250 @@
+﻿-- Sheet: Cover --
+AfriCanna Analytics — Cannabis Testing Lab Financial Model
+Investor-ready five-year model for South African cannabis analytical testing laboratory
+Workbook purpose
+This workbook models a phased cannabis testing laboratory in South Africa: Phase 1 launches GC-FID residual solvents, GC-FID terpenes, and HPLC-DAD cannabinoid potency; Phase 2 adds LC-MS/MS pesticides/mycotoxins and ICP-MS heavy metals. Edit blue cells on the Inputs, Test Mix, CAPEX, and Staffing sheets. Formula cells update automatically.
+Sheet | Purpose
+Inputs | Scenario selector, inflation, tax, funding, and operating assumptions
+Test Mix | Services, pricing, variable costs, service mix by year
+CAPEX & Depreciation | Phase 1/2 equipment spend and straight-line depreciation
+Staffing & OPEX | Lean staffing plan and operating expense schedule
+Revenue Model | Annual service-line revenue, variable costs, and gross margin
+P&L | Income statement from revenue to net income
+Cash Flow | Free cash flow, funding, and ending cash balance
+Break-Even | Samples/day break-even and sensitivity logic
+Dashboard | Investor summary KPIs and charts
+Sources | Key external references and model-source notes
+Formatting convention
+Blue text = hardcoded editable assumptions. Green text = formulas pulling from other worksheets. Black text = calculations within the same sheet. Yellow fill = key assumptions requiring investor/management confirmation. Numbers are formatted so zeros show as dashes and negative values show in red parentheses.
+
+-- Sheet: Inputs --
+Inputs & Scenario Control
+Edit blue cells. This sheet drives all financial statements.
+Core assumptions
+Input | Value | Notes
+Selected scenario | Baseline | Controls annual sample volume via scenario table
+Model start year | 2027 | Nominal first operating year
+Base currency | ZAR | All financial statements are in South African rand
+EUR/ZAR exchange rate | 20.5 | Editable FX assumption for investor conversion
+Working days per month | 22 | Assumes weekday lab operation
+Price inflation | 0.05 | Applied to service prices from Test Mix
+Cost inflation | 0.06 | Applied to variable costs and non-salary OPEX
+Salary inflation | 0.08 | Applied to monthly salary assumptions
+Scenario volume ramp
+Scenario | Y1 Samples/day | Y2 Samples/day | Y3 Samples/day | Y4 Samples/day | Y5 Samples/day | Comment | Risk posture
+Conservative | 6 | 15 | 30 | 50 | 75 | Slow client acquisition; delayed accreditation impact | Downside
+Baseline | 10 | 25 | 50 | 80 | 120 | Balanced ramp from Phase 1 to Phase 2 | Base case
+Upside | 15 | 40 | 75 | 120 | 180 | Faster adoption and export-driven demand | Growth case
+Funding assumptions
+Input | Value | Notes
+Phase 1 investor funding / opening cash (EUR) | 100000 | Editable investor raise assumption
+Phase 1 investor funding / opening cash (ZAR) | 2050000 | Formula = EUR ask × FX
+Phase 2 expansion funding year | 3 | Year in which LC-MS/MS and ICP-MS expansion is funded
+Phase 2 expansion funding (EUR) | 200000 | Editable expansion raise or debt funding assumption
+Phase 2 expansion funding (ZAR) | 4100000 | Formula = EUR expansion × FX
+Corporate tax rate | 0.27 | South Africa corporate income tax assumption; verify with tax advisor
+
+-- Sheet: Test Mix --
+Service Mix, Pricing & Variable Cost Assumptions
+Edit service prices, direct costs, and service mix by year.
+Service-line assumptions
+Service line | Phase | Primary instrument | Method/column | Y1 Mix | Y2 Mix | Y3 Mix | Y4 Mix | Y5 Mix | Y1 Price / test (ZAR) | Y1 Variable cost / test (ZAR)
+Potency | Phase 1 | HPLC-DAD | Restek Raptor ARC-18 | 0.35 | 0.35 | 0.25 | 0.22 | 0.2 | 1200 | 150
+Terpenes | Phase 1 | GC-FID | Restek Rxi-624Sil MS | 0.2 | 0.2 | 0.15 | 0.13 | 0.12 | 900 | 120
+Residual solvents | Phase 1 | HS-GC-FID | Restek Rxi-624Sil MS | 0.25 | 0.25 | 0.18 | 0.15 | 0.13 | 1600 | 180
+Core bundle | Phase 1 | GC-FID + HPLC-DAD | Potency + terpenes + residuals | 0.2 | 0.2 | 0.2 | 0.18 | 0.15 | 3000 | 300
+Pesticides | Phase 2 | LC-MS/MS | Triple quad MRM | 0 | 0 | 0.08 | 0.1 | 0.12 | 2500 | 500
+Heavy metals | Phase 2 | ICP-MS | Acid digestion + ICP-MS | 0 | 0 | 0.06 | 0.08 | 0.1 | 1800 | 400
+Full compliance bundle | Phase 2 | LC-MS/MS + ICP-MS + core | Full compliance package | 0 | 0 | 0.08 | 0.14000000000000001 | 0.18 | 6500 | 900
+ |  |  |  | Check | Y1 | Y2 | Y3 | Y4 | Y5
+ |  |  |  | Mix total | 1 | 1 | 0.99999999999999989 | 0.99999999999999989 | 1
+ |  |  |  | Weighted price / test | 1600 | 1680 | 2371.4775 | 2853.5456250000002 | 3228.3845999999999
+ |  |  |  | Weighted variable cost / test | 181.5 | 192.39000000000001 | 318.99004000000002 | 402.08700160000012 | 473.17636460800014
+
+-- Sheet: CAPEX & Depreciation --
+CAPEX & Straight-Line Depreciation
+Equipment and setup spend by year; straight-line depreciation over useful life.
+CAPEX assumptions
+Asset / investment | Phase | Category | Cost (ZAR) | Useful life (yrs) | Y1 Spend | Y2 Spend | Y3 Spend | Y4 Spend | Y5 Spend | Notes
+GC-FID #1 | Phase 1 | Instrument | 350000 | 5 | 1 | 0 | 0 | 0 | 0 | Residual solvents / headspace-ready
+GC-FID #2 | Phase 1 | Instrument | 350000 | 5 | 1 | 0 | 0 | 0 | 0 | Terpenes / method redundancy
+Headspace sampler | Phase 1 | Autosampler | 300000 | 5 | 1 | 0 | 0 | 0 | 0 | Residual solvent throughput
+HPLC-DAD | Phase 1 | Instrument | 650000 | 5 | 1 | 0 | 0 | 0 | 0 | Potency testing
+Columns, gases, prep equipment | Phase 1 | Lab setup | 200000 | 3 | 1 | 0 | 0 | 0 | 0 | Restek columns, regulators, prep tools
+Lab buildout & safety | Phase 1 | Facility | 350000 | 7 | 1 | 0 | 0 | 0 | 0 | Benches, ventilation, storage
+LIMS / IT setup | Phase 1 | Software | 150000 | 3 | 1 | 0 | 0 | 0 | 0 | Sample tracking and CoA generation
+SAHPRA/SANAS setup budget | Phase 1 | Compliance | 150000 | 1 | 1 | 0 | 0 | 0 | 0 | Application, consultants, audit prep
+LC-MS/MS triple quadrupole | Phase 2 | Instrument | 2500000 | 5 | 0 | 0 | 1 | 0 | 0 | Pesticides and mycotoxins
+ICP-MS | Phase 2 | Instrument | 2200000 | 5 | 0 | 0 | 1 | 0 | 0 | Heavy metals
+MS sample prep / extraction | Phase 2 | Lab setup | 400000 | 5 | 0 | 0 | 1 | 0 | 0 | QuEChERS, digestion, extraction
+Lab expansion | Phase 2 | Facility | 500000 | 7 | 0 | 0 | 1 | 0 | 0 | MS room, gases, extraction workflow
+LIMS upgrade / MS data handling | Phase 2 | Software | 100000 | 3 | 0 | 0 | 1 | 0 | 0 | MS data review and reporting
+Annual CAPEX and depreciation
+Metric | Y1 | Y2 | Y3 | Y4 | Y5 | Total / Notes | EUR equivalent
+CAPEX spend | 2500000 | 0 | 5700000 | 0 | 0 | 8200000 | 400000
+Phase 1 CAPEX spend | 2500000 | 0 | 0 | 0 | 0 | 2500000 | 121951.21951219512
+Phase 2 CAPEX spend | 0 | 0 | 5700000 | 0 | 0 | 5700000 | 278048.78048780491
+Depreciation expense | 646666.66666666674 | 496666.66666666669 | 1621428.5714285714 | 1504761.9047619046 | 1504761.9047619046 | 5774285.7142857146
+Net PP&E closing | 1853333.3333333333 | 1356666.6666666665 | 5435238.0952380951 | 3930476.1904761903 | 2425714.2857142854 | 2425714.2857142854
+Cumulative CAPEX | 2500000 | 2500000 | 8200000 | 8200000 | 8200000 | 8200000
+Memo: Phase 1 launch investment required | 2500000 |  |  |  |  | Includes CAPEX before working capital | 121951.21951219512
+
+-- Sheet: Staffing & OPEX --
+Lean Staffing Plan & Operating Expense Schedule
+Minimal staffing structure with phase-based expansion.
+Staffing assumptions
+Role | Phase | Monthly salary / rate (ZAR) | Y1 HC/FTE | Y2 HC/FTE | Y3 HC/FTE | Y4 HC/FTE | Y5 HC/FTE | Function | Regulatory relevance | Can be outsourced? | Notes
+Founder / Technical Manager / GC Signatory | Phase 1 | 70000 | 1 | 1 | 1 | 1 | 1 | Technical oversight, GC methods, data review | Authorized signatory for GC scope subject to SANAS approval | No | Founder background supports lean launch
+LC Analytical Chemist / HPLC Signatory | Phase 1 | 45000 | 1 | 1 | 1 | 1 | 1 | HPLC-DAD potency validation and release | Competence for LC scope / sign-off pathway | No | Critical hire if founder remains GC-focused
+Lab Technician / Sample Prep | Phase 1 | 25000 | 1 | 1 | 1 | 2 | 2 | Sample receipt, prep, routine runs | Trained and competency-assessed under ISO 17025 | No | Adds throughput and redundancy
+QA Consultant | Phase 1 | 55000 | 0.3 | 0.3 | 0.2 | 0 | 0 | QMS build, internal audit, SANAS readiness | Supports ISO 17025 implementation | Yes | Outsource early to minimize fixed cost
+Admin / Client Coordinator | Phase 1 | 22000 | 0.5 | 1 | 1 | 1 | 1 | Client intake, billing, CoA workflow | Chain of custody and records support | Partial | Can be partly automated with LIMS
+MS Specialist | Phase 2 | 65000 | 0 | 0 | 1 | 1 | 1 | LC-MS/MS and ICP-MS methods | Required for Phase 2 technical competence | No | Add before MS methods go live
+QA Manager | Phase 2 | 55000 | 0 | 0 | 1 | 1 | 1 | Full-time quality management | Independence from technical function preferred | No | Needed for scale and accreditation maintenance
+Annual salary expense
+Metric | Y1 | Y2 | Y3 | Y4 | Y5 | Total | Notes
+Salary expense | 2010000 | 2313360 | 4101062.4000000004 | 4640779.0080000004 | 5012041.3286400009 | 18077242.736639999 | Headcount × monthly salary × 12 × salary inflation
+Average FTE | 3.8 | 4.3 | 6.2 | 7 | 7 | 5.66 | Total FTE by year
+Salary / revenue | 4.1948409717004758 | 1.8218675134315241 | 0.97396942379312368 | 0.54648335726119246 | 0.33435392615984527 | 1.5743030384692323 | P&L efficiency metric
+Revenue / FTE | 126094.73684210527 | 295296.27906976745 | 679140.08516129025 | 1213153.924827429 | 2141461.0329687777 | 891029.21177387389 | Productivity metric
+Non-staff operating expenses
+OPEX category | Monthly base (ZAR) | Escalation driver | Y1 | Y2 | Y3 | Y4 | Y5
+Rent / facility | 35000 | Cost inflation | 420000 | 445200 | 471912.00000000006 | 500226.72000000015 | 530240.3232000001
+Utilities / water / power | 15000 | Cost inflation | 180000 | 190800 | 202248.00000000003 | 214382.88000000006 | 227245.85280000005
+Gases / service contracts overhead | 18000 | Cost inflation | 216000 | 228960 | 242697.60000000003 | 257259.45600000006 | 272695.02336000005
+LIMS / IT / cybersecurity | 12000 | Cost inflation | 144000 | 152640 | 161798.40000000002 | 171506.30400000003 | 181796.68224000005
+Insurance / legal / accounting | 18000 | Cost inflation | 216000 | 228960 | 242697.60000000003 | 257259.45600000006 | 272695.02336000005
+Marketing & sales | 25000 | Cost inflation | 300000 | 318000 | 337080.00000000006 | 357304.8000000001 | 378743.08800000011
+Accreditation maintenance / PT schemes | 20000 | Cost inflation | 240000 | 254400 | 269664.00000000006 | 285843.84000000008 | 302994.47040000005
+Repairs & maintenance reserve | 30000 | Cost inflation | 360000 | 381600 | 404496.00000000006 | 428765.76000000013 | 454491.7056000001
+Total OPEX before salaries |  |  | 2076000 | 2200560 | 2332593.6 | 2472549.2160000005 | 2620902.1689600004
+Total operating expenses incl. salaries |  |  | 4086000 | 4513920 | 6433656 | 7113328.2240000013 | 7632943.4976000013
+OPEX per annual sample |  |  | 1547.7272727272727 | 683.92727272727268 | 487.3981818181818 | 336.80531363636368 | 240.93887303030306
+
+-- Sheet: Revenue Model --
+Revenue Model
+Scenario-driven service-line revenue, variable cost, and gross margin.
+Operating volume and blended economics
+Metric | Y1 | Y2 | Y3 | Y4 | Y5 | Formula / notes | Source
+Selected scenario | Baseline | Baseline | Baseline | Baseline | Baseline | Inputs!B6 | Inputs
+Samples/day | 10 | 25 | 50 | 80 | 120 | INDEX/MATCH selected scenario | Inputs
+Working days/month | 22 | 22 | 22 | 22 | 22 | Constant from Inputs | Inputs
+Annual samples | 2640 | 6600 | 13200 | 21120 | 31680 | Samples/day × working days × 12 | Calculated
+Blended price / test | 1600 | 1680 | 2371.4775 | 2853.5456250000002 | 3228.3845999999999 | Weighted service mix price | Test Mix
+Blended variable cost / test | 181.5 | 192.39000000000001 | 318.99004000000002 | 402.08700160000012 | 473.17636460800014 | Weighted direct cost | Test Mix
+Revenue | 4224000 | 11088000 | 31303503 | 60266883.600000001 | 102275224.12799999 | Annual samples × blended price | Calculated
+Direct variable costs | 479160 | 1269774 | 4210668.5279999999 | 8492077.4737920035 | 14990227.230781445 | Annual samples × blended variable cost | Calculated
+Gross profit | 3744840 | 9818226 | 27092834.471999999 | 51774806.126208 | 87284996.89721854 | Revenue - direct variable costs | Calculated
+Gross margin | 0.88656250000000003 | 0.88548214285714288 | 0.86548890301510339 | 0.85909214204346218 | 0.85343246755420643 | Gross profit / revenue | Calculated
+Service-line revenue by year
+Service line | Y1 | Y2 | Y3 | Y4 | Y5 | Phase | Instrument
+Potency | 1108799.9999999998 | 2910600 | 4365900 | 6454546.5600000005 | 9241737.1199999992 | Phase 1 | HPLC-DAD
+Terpenes | 475200 | 1247400 | 1964655 | 2860537.68 | 4158781.7039999999 | Phase 1 | GC-FID
+Residual solvents | 1056000 | 2772000 | 4191264 | 5867769.6000000006 | 8009505.5040000016 | Phase 1 | HS-GC-FID
+Core bundle | 1584000 | 4158000 | 8731800 | 13202481.600000001 | 17328257.100000001 | Phase 1 | GC-FID + HPLC-DAD
+Pesticides | 0 | 0 | 2910600 | 6112260.0000000009 | 11552171.4 | Phase 2 | LC-MS/MS
+Heavy metals | 0 | 0 | 1571724 | 3520661.7600000007 | 6931302.8399999999 | Phase 2 | ICP-MS
+Full compliance bundle | 0 | 0 | 7567560 | 22248626.400000002 | 45053468.460000001 | Phase 2 | LC-MS/MS + ICP-MS + core
+
+-- Sheet: P&L --
+Profit & Loss Statement
+Annual income statement in ZAR.
+Annual P&L
+Metric | Y1 | Y2 | Y3 | Y4 | Y5 | Formula / notes | Margin
+Revenue | 4224000 | 11088000 | 31303503 | 60266883.600000001 | 102275224.12799999 | Revenue Model row 12 | 1
+Direct variable costs | 479160 | 1269774 | 4210668.5279999999 | 8492077.4737920035 | 14990227.230781445 | Revenue Model row 13
+Gross profit | 3744840 | 9818226 | 27092834.471999999 | 51774806.126208 | 87284996.89721854 | Revenue - variable costs | 0.85343246755420643
+Gross margin | 0.88656250000000003 | 0.88548214285714288 | 0.86548890301510339 | 0.85909214204346218 | 0.85343246755420643 | Gross profit / revenue
+Salary expense | 2010000 | 2313360 | 4101062.4000000004 | 4640779.0080000004 | 5012041.3286400009 | Staffing & OPEX row 17
+Other operating expenses | 2076000 | 2200560 | 2332593.6 | 2472549.2160000005 | 2620902.1689600004 | Staffing & OPEX row 34
+Total OPEX | 4086000 | 4513920 | 6433656 | 7113328.2240000013 | 7632943.4976000013 | Salary + other OPEX
+EBITDA | -341160 | 5304306 | 20659178.471999999 | 44661477.902208 | 79652053.399618536 | Gross profit - OPEX | 0.77880106427273144
+EBITDA margin | -8.0767045454545452E-2 | 0.47838257575757576 | 0.65996378973944225 | 0.74106167822833968 | 0.77880106427273144 | EBITDA / revenue
+Depreciation | 646666.66666666674 | 496666.66666666669 | 1621428.5714285714 | 1504761.9047619046 | 1504761.9047619046 | CAPEX & Depreciation row 26
+EBIT | -987826.66666666674 | 4807639.333333333 | 19037749.900571428 | 43156715.997446097 | 78147291.494856626 | EBITDA - depreciation
+Tax expense | 0 | 1298062.6200000001 | 5140192.4731542859 | 11652313.319310447 | 21099768.703611292 | Positive EBIT × tax rate
+Net income | -987826.66666666674 | 3509576.7133333329 | 13897557.427417142 | 31504402.678135648 | 57047522.791245334 | EBIT - tax | 0.55778438304714872
+Net margin | -0.2338604797979798 | 0.31652026635401631 | 0.44396173257086091 | 0.52274816277600999 | 0.55778438304714872 | Net income / revenue
+
+-- Sheet: Cash Flow --
+Cash Flow Statement
+Free cash flow, funding draw, and ending cash balance.
+Annual cash flow
+Metric | Y1 | Y2 | Y3 | Y4 | Y5 | Formula / notes | Total
+EBITDA | -341160 | 5304306 | 20659178.471999999 | 44661477.902208 | 79652053.399618536 | P&L row 13 | 149935855.77382654
+Tax paid | 0 | 1298062.6200000001 | 5140192.4731542859 | 11652313.319310447 | 21099768.703611292 | P&L row 17 | 39190337.116076022
+Operating cash flow | -341160 | 4006243.38 | 15518985.998845713 | 33009164.582897551 | 58552284.696007244 | EBITDA - tax | 110745518.65775052
+CAPEX spend | 2500000 | 0 | 5700000 | 0 | 0 | CAPEX & Depreciation row 23 | 8200000
+Free cash flow before funding | -2841160 | 4006243.38 | 9818985.9988457132 | 33009164.582897551 | 58552284.696007244 | Operating cash flow - CAPEX | 102545518.65775052
+Funding proceeds | 2050000 | 0 | 4100000 | 0 | 0 | Opening raise and Phase 2 expansion raise | 6150000
+Net cash flow | -791160 | 4006243.38 | 13918985.998845713 | 33009164.582897551 | 58552284.696007244 | FCF + funding | 108695518.65775052
+Opening cash balance | 0 | -791160 | 3215083.38 | 17134069.378845714 | 50143233.961743265 | Prior year ending cash | 69701226.720588982
+Ending cash balance | -791160 | 3215083.38 | 17134069.378845714 | 50143233.961743265 | 108695518.65775052 | Opening + net cash flow | 178396745.3783395
+Cumulative FCF before funding | -2841160 | 1165083.3799999999 | 10984069.378845714 | 43993233.961743265 | 102545518.65775052 | Cumulative FCF excluding investor proceeds | 155846745.3783395
+
+-- Sheet: Break-Even --
+Break-Even & Sensitivity Analysis
+EBITDA break-even by year and Year 1 sample/day sensitivity.
+Annual EBITDA break-even
+Metric | Y1 | Y2 | Y3 | Y4 | Y5 | Formula / notes | Interpretation
+Blended price / test | 1600 | 1680 | 2371.4775 | 2853.5456250000002 | 3228.3845999999999 | Revenue Model row 10 | Revenue per sample
+Blended variable cost / test | 181.5 | 192.39000000000001 | 318.99004000000002 | 402.08700160000012 | 473.17636460800014 | Revenue Model row 11 | Direct sample cost
+Contribution margin / test | 1418.5 | 1487.61 | 2052.4874599999998 | 2451.4586233999999 | 2755.2082353919996 | Price - variable cost | Gross contribution per sample
+Annual OPEX before depreciation | 4086000 | 4513920 | 6433656 | 7113328.2240000013 | 7632943.4976000013 | P&L total OPEX | Fixed operating cost
+Break-even annual samples | 2880.507578427917 | 3034.343678786779 | 3134.5653142260858 | 2901.6717459968049 | 2770.3690049815846 | OPEX / contribution margin | Required volume
+Break-even samples/day | 10.9110135546512 | 11.493726056010527 | 11.873353462977597 | 10.991180856048503 | 10.493821988566609 | Annual samples / 12 / working days | Operational target
+Actual samples/day | 10 | 25 | 50 | 80 | 120 | Revenue Model row 7 | Scenario ramp
+Year 1 EBITDA sensitivity: samples/day vs average price
+Samples/day \ Price | 1800 | 2200 | 2600 | 3000 | 3400 | 3800 | 4200 | 4600 | 5000
+5 | -1949580 | -1421580 | -893580 | -365580 | 162420 | 690420 | 1218420 | 1746420 | 2274420
+10 | 186840 | 1242840 | 2298840 | 3354840 | 4410840 | 5466840 | 6522840 | 7578840 | 8634840
+15 | 2323260 | 3907260 | 5491260 | 7075260 | 8659260 | 10243260 | 11827260 | 13411260 | 14995260
+20 | 4459680 | 6571680 | 8683680 | 10795680 | 12907680 | 15019680 | 17131680 | 19243680 | 21355680
+30 | 8732520 | 11900520 | 15068520 | 18236520 | 21404520 | 24572520 | 27740520 | 30908520 | 34076520
+40 | 13005360 | 17229360 | 21453360 | 25677360 | 29901360 | 34125360 | 38349360 | 42573360 | 46797360
+50 | 17278200 | 22558200 | 27838200 | 33118200 | 38398200 | 43678200 | 48958200 | 54238200 | 59518200
+
+-- Sheet: Dashboard --
+Investor Dashboard
+Headline financial outputs generated automatically from the model.
+Metric | Value |  | Metric | Value |  | Metric | Value |  | Status
+Phase 1 CAPEX (ZAR) | 2500000 |  | Phase 1 CAPEX (EUR) | 121951.21951219512 |  | Selected scenario | Baseline
+Funding ask / opening cash (ZAR) | 2050000 |  | Funding ask / opening cash (EUR) | 100000 |  | Y5 EBITDA margin | 0.77880106427273144
+Y1 Revenue | 4224000 |  | Y5 Revenue | 102275224.12799999 |  | Y5 Net margin | 0.55778438304714872
+Y1 EBITDA | -341160 |  | Y5 EBITDA | 79652053.399618536 |  | Cumulative FCF before funding | 102545518.65775052
+Y1 Break-even samples/day | 10.9110135546512 |  | Y5 Break-even samples/day | 10.493821988566609 |  | Ending cash Y5 | 108695518.65775052
+ |  |  |  |  |  | Phase 2 CAPEX (ZAR) | 5700000
+Five-year summary
+Metric | Y1 | Y2 | Y3 | Y4 | Y5
+Revenue | 4224000 | 11088000 | 31303503 | 60266883.600000001 | 102275224.12799999
+Gross profit | 3744840 | 9818226 | 27092834.471999999 | 51774806.126208 | 87284996.89721854
+EBITDA | -341160 | 5304306 | 20659178.471999999 | 44661477.902208 | 79652053.399618536
+Net income | -987826.66666666674 | 3509576.7133333329 | 13897557.427417142 | 31504402.678135648 | 57047522.791245334
+Free cash flow before funding | -2841160 | 4006243.38 | 9818985.9988457132 | 33009164.582897551 | 58552284.696007244
+Ending cash balance | -791160 | 3215083.38 | 17134069.378845714 | 50143233.961743265 | 108695518.65775052
+Samples/day | 10 | 25 | 50 | 80 | 120
+Service-line revenue snapshot
+Service | Y1 | Y2 | Y3 | Y4 | Y5
+Potency | 1108799.9999999998 | 2910600 | 4365900 | 6454546.5600000005 | 9241737.1199999992
+Terpenes | 475200 | 1247400 | 1964655 | 2860537.68 | 4158781.7039999999
+Residual solvents | 1056000 | 2772000 | 4191264 | 5867769.6000000006 | 8009505.5040000016
+Core bundle | 1584000 | 4158000 | 8731800 | 13202481.600000001 | 17328257.100000001
+Pesticides | 0 | 0 | 2910600 | 6112260.0000000009 | 11552171.4
+Heavy metals | 0 | 0 | 1571724 | 3520661.7600000007 | 6931302.8399999999
+Full compliance bundle | 0 | 0 | 7567560 | 22248626.400000002 | 45053468.460000001
+
+-- Sheet: Sources --
+Sources & Model Notes
+Key references used to structure the model; cost/pricing assumptions remain editable placeholders pending formal supplier quotes.
+References
+Topic | Source | URL | Used for | Date checked | Notes
+SAHPRA cannabis licence activities | SAHPRA guideline for cultivation of cannabis | https://www.sahpra.org.za/wp-content/uploads/2022/11/SAHPGL-INSP-RC-13_v3-Guideline-for-Cultivation-of-Cannabis.pdf | Licensing scope includes extract/test cannabis, resin and/or cannabinoids | 2026-04-27 | Confirm current application form and fees directly with SAHPRA before submission
+SAHPRA licence application process | SAHPRA licence application process page | https://www.sahpra.org.za/licence-application-process/ | SAHPRA forms for scheduled substances and contract testing laboratories | 2026-04-27 | Use current GLF-LIC forms from SAHPRA site
+SANAS ISO 17025 accreditation | SANAS accreditation certificates / ISO 17025 references | https://www.sanas.co.za/ | ISO/IEC 17025 accreditation body in South Africa | 2026-04-27 | Scope-specific accreditation; confirm fee schedule and timelines with SANAS
+Residual solvents / terpenes column | Restek Rxi-624Sil MS product/application pages | https://www.restek.com/global/en/p/13868 | GC-FID column assumption for volatiles, residual solvents, terpenes | 2026-04-27 | Model assumes 2× Rxi-624Sil MS columns for Phase 1 GC-FID setup
+Residual solvents method support | Restek residual solvents cannabis chromatogram | https://www.restek.com/global/en/chromatogram-detail/GC_FS0563 | HS-GC-FID residual solvents method basis | 2026-04-27 | Actual method must be validated in-house
+Terpenes method support | Restek cannabis terpenes chromatogram | https://www.restek.com/global/en/chromatogram-detail/GC_FS0518 | GC-FID terpene method basis | 2026-04-27 | Actual method must be validated in-house
+Potency column logic | Restek Raptor ARC-18 cannabis cannabinoid LC-UV/DAD applications | https://www.restek.com/ | HPLC-DAD potency platform assumption | 2026-04-27 | Confirm exact column dimensions against chosen HPLC method
+Model caveats
+This workbook is a financial planning model, not a formal quote. Equipment, salaries, rental, and accreditation costs are editable assumptions and should be replaced with supplier quotes, signed leases, HR benchmarks, SANAS/SAHPRA fee schedules, and tax advice before investor closing. Heavy metals are modeled as ICP-MS, not LC-MS. Pesticides and mycotoxins are modeled as LC-MS/MS. Phase 1 can operate as a revenue-generating core lab while Phase 2 contaminant testing is outsourced or added when volume justifies the capital expense.
+

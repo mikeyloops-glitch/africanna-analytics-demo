@@ -1,0 +1,17 @@
+<svg width="560" height="144" viewBox="0 0 560 144" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">AfriCanna Analytics logo option B</title>
+  <desc id="desc">Round analytical cell mark with AfriCanna Analytics wordmark.</desc>
+  <g transform="translate(28 20)">
+    <circle cx="52" cy="52" r="48" fill="#F6F8F4" stroke="#DDE5DF" stroke-width="2"/>
+    <path d="M28 70C37 46 49 34 65 27C62 44 68 56 82 65C62 67 45 72 28 86C28 80 28 75 28 70Z" fill="#C9EB9A"/>
+    <path d="M27 86C47 66 68 55 87 53" stroke="#21423A" stroke-width="4" stroke-linecap="round"/>
+    <path d="M30 91H90" stroke="#9AD55B" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="94" cy="34" r="6" fill="#9AD55B"/>
+    <circle cx="101" cy="74" r="4" fill="#6FB246"/>
+    <circle cx="70" cy="98" r="3" fill="#21423A"/>
+  </g>
+  <g transform="translate(158 35)" fill="#1D2824">
+    <text x="0" y="40" font-family="Inter, Arial, sans-serif" font-size="38" font-weight="650" letter-spacing="0">AfriCanna</text>
+    <text x="2" y="76" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="420" letter-spacing="5" fill="#65736B">ANALYTICS</text>
+  </g>
+</svg>

@@ -1,0 +1,384 @@
+﻿AfriCanna Analytics (Pty) Ltd
+Mandatory Regulatory, Licensing and Accreditation Roadmap
+Cannabis Analytical Testing Laboratory - South Africa
+Prepared for investor, licensing and accreditation planning
+Purpose: This document lists the mandatory and strongly recommended approvals, licences, systems and evidence needed to open and operate a cannabis analytical testing laboratory in South Africa. It is structured for a lean Phase 1 launch using GC-FID and HPLC-DAD, followed by Phase 2 expansion into LC-MS/MS and ICP-MS for full contaminant compliance testing.
+Important note: This document is a business planning and compliance-readiness guide. It is not legal advice. Final licence scope, permit requirements and submission wording should be confirmed directly with SAHPRA, SANAS, the National Department of Health and a South African regulatory attorney or RA/QA consultant before submission.
+Phase
+Testing Scope
+Core Instruments
+Primary Regulatory Position
+Phase 1 - Startup / revenue lab
+Potency, terpenes, residual solvents
+2 x GC-FID, headspace sampler, HPLC-DAD/PDA
+SAHPRA testing/contract laboratory licence + SANAS ISO/IEC 17025 accreditation scope for each method
+Phase 2 - Full compliance expansion
+Pesticides, mycotoxins, heavy metals
+LC-MS/MS, ICP-MS
+SANAS scope extension + SAHPRA licence amendment if scope/facility changes materially
+Navigation: Use Word headings/navigation pane. A formal table of contents can be inserted in Word using References > Table of Contents.
+1. Executive Compliance Checklist
+For the proposed lab, the critical path is not simply buying instruments. The lab must be legally permitted to handle cannabis/cannabinoid samples, technically competent to issue reliable results, and accredited or accreditation-ready for investor-grade credibility.
+Requirement
+Mandatory / Recommended
+Owner / Regulator
+What must be in place before operating commercially
+Company registration
+Mandatory
+CIPC / SARS
+Pty Ltd registration, tax number, VAT/PAYE where applicable, bank account, accounting system.
+SAHPRA licence for testing / contract laboratory activity
+Mandatory for medicinal/scheduled cannabis testing
+SAHPRA
+Correct licence application, site master file, facility details, personnel, SOPs, quality system, security, inspection readiness.
+National Department of Health permit for scheduled substances
+Likely mandatory where acquiring, possessing, using or testing scheduled cannabis/THC material
+Director-General: Health / NDoH
+Permit for acquisition/use/possession of scheduled substances; import/export permits if applicable.
+SANAS ISO/IEC 17025 accreditation
+Commercially essential; often required for acceptance of results
+SANAS
+Quality management system, validated methods, calibrated equipment, competency records, internal audits, management review, proficiency testing / inter-lab comparison.
+Controlled substance security and chain of custody
+Mandatory in practice for cannabis lab licensing and audit defence
+SAHPRA / internal QMS
+Restricted access, sample inventory, custody records, secure storage, reconciliation, disposal records, CCTV/access-control where required.
+Occupational health and safety
+Mandatory
+Department of Employment and Labour / municipal authorities
+Risk assessments, chemical safety, SDS, PPE, training, emergency procedures, gas safety, fire safety.
+Hazardous chemical and waste management
+Mandatory
+Environmental / municipal rules; licensed waste contractor
+Waste classification, segregation, solvent waste collection, manifests, approved disposal, spill procedures.
+Facility zoning, fire and occupancy approval
+Mandatory before fit-out/operation
+Local municipality / fire department
+Correct land-use zoning, occupancy certificate, fire plan, flammable storage approval if required.
+POPIA / data privacy
+Mandatory for client and employee data
+Information Regulator / internal governance
+Privacy policy, data access control, retention schedule, customer confidentiality terms.
+Supplier qualification and metrological traceability
+Mandatory for ISO 17025
+Internal QMS / SANAS assessment
+Approved suppliers for standards, gases, CRMs, calibration providers; traceability to national/international standards.
+2. Regulatory Bodies and What Each One Controls
+Body
+Role in the Lab Project
+Main Output / Approval
+SAHPRA - South African Health Products Regulatory Authority
+Controls medicinal cannabis and scheduled-substance activities, including activities to extract and test cannabis, cannabis resin and/or cannabinoids where within the Medicines Act framework.
+Licence application and inspection outcome; contract testing/manufacturing-related licence depending the final scope.
+National Department of Health / Director-General
+Issues permits for certain acquisition, possession, use, manufacture, supply, import or export activities involving scheduled substances.
+Section 22A permit(s), and potentially import/export authorisations for controlled substances.
+SANAS - South African National Accreditation System
+National accreditation body for testing/calibration laboratories. Accredits labs to ISO/IEC 17025 for defined methods and matrices.
+Accreditation certificate and schedule of accreditation.
+Local Municipality / Fire Department
+Controls zoning, occupancy, building plan approval, fire safety and flammable chemical/gas storage requirements.
+Occupancy/fire approval; zoning confirmation; waste and business compliance as applicable.
+Department of Employment and Labour
+Occupational health and safety compliance under the OHS Act and associated regulations, including hazardous chemical agents.
+Workplace safety compliance evidence, inspections if triggered, incident reporting system.
+Environmental / Waste authorities and municipal waste services
+Controls storage, transport and disposal of hazardous chemical waste and solvent waste.
+Waste contractor agreements, manifests/certificates of safe disposal, waste records.
+SARS / CIPC
+Corporate registration, tax, VAT, payroll and import duties.
+Company registration, tax clearance, VAT/PAYE registrations where applicable.
+3. SAHPRA Licence: Cannabis Testing / Contract Laboratory Activity
+For a cannabis analytical testing lab, SAHPRA is the central licensing authority where the lab will handle cannabis, cannabis resin, cannabinoids or scheduled substances for medicinal, research or regulated commercial purposes. SAHPRA licence forms include a form for “Licence Application to Manufacture Import or Export Medicines Scheduled Substances including Contract Testing Laboratories” and a cannabis-specific form for cultivation/manufacture/import of cannabis for medicinal purposes.
+What SAHPRA will expect
+Practical evidence to prepare
+Defined licensed activity
+State exactly whether the site will test cannabis plant material, cannabis resin, extracts, cannabinoids, finished products and/or contract-test for licensed producers.
+Site Master File / facility description
+Facility layout, sample flow, controlled access zones, storage areas, instrument rooms, waste areas, safety controls and utilities.
+Quality system
+Quality manual, SOPs, document control, deviation/CAPA system, data integrity policy, change control, complaint handling and audit programme.
+Personnel and responsible persons
+CVs, qualifications, training records, organogram, job descriptions, technical manager, quality function and authorized signatories.
+Security and controlled substance control
+Access control, sample receipt, chain-of-custody, cannabis inventory, secure storage, reconciliation, destruction/disposal records.
+Methods and validation
+Validated or verified methods for potency, residual solvents and terpenes in Phase 1; acceptance criteria and uncertainty approach.
+Inspection readiness
+Evidence that the facility and QMS are operational before inspection: logs, SOP implementation, training, equipment qualification, calibration.
+3.1 Steps to Obtain the SAHPRA Licence
+1. Confirm exact licence scope: testing only, contract testing, handling of cannabis resin/extracts, import/export of standards or samples, and whether medicinal cannabis clients are included.
+2. Select and secure the premises. Do not design the lab generically: design it around controlled sample flow, restricted storage, instrument rooms, chemical storage, waste exit route and security.
+3. Prepare the Site Master File and facility drawings. Include access control, utilities, HVAC/temperature control where relevant, storage areas and instrument locations.
+4. Build the QMS skeleton before submission: quality manual, core SOPs, personnel responsibilities, sample chain-of-custody, data integrity, CAPA, document control and training system.
+5. Prepare method package: method summaries, validation plan, equipment list, calibration plan and intended SANAS scope.
+6. Complete the relevant SAHPRA form(s), pay the prescribed fee and submit supporting documentation.
+7. Prepare for SAHPRA inspection. Run mock audits, check logs, prove controlled-substance records, prove that staff are trained on the SOPs.
+8. Respond to findings/CAPAs. Close inspection observations with documented corrective action and evidence.
+9. Receive licence, then operate only within the approved scope and conditions. Amend the licence if the facility, activities or controlled substance scope changes materially.
+4. National Department of Health Section 22A Permit(s)
+A cannabis lab may need a permit from the Director-General of Health where it acquires, uses, possesses, manufactures, supplies, imports or exports scheduled substances. This is especially important for THC-containing materials, reference standards and controlled cannabis samples. The exact permit type depends on final scope, product scheduling and whether the lab imports/exports standards or samples.
+Permit need
+When it applies
+Evidence / action
+Acquire/use/possess scheduled cannabis or THC material
+When receiving, storing, preparing and analysing cannabis or cannabinoid samples that fall under scheduled substance controls.
+Apply for Section 22A permit; provide facility, security, responsible person, SOPs and recordkeeping evidence.
+Import/export controlled reference standards or samples
+When importing certified reference materials, THC standards, cannabis samples, or exporting samples/results where controlled materials cross borders.
+Check whether Section 22A(11) or import/export permit is needed; align with SAHPRA licence and customs documentation.
+Disposal/destruction of controlled cannabis material
+When destroying retained samples, extracts, standards or waste containing controlled cannabinoids.
+Written destruction SOP, witness records, reconciliation, approved waste contractor where applicable.
+5. SANAS ISO/IEC 17025 Accreditation
+ISO/IEC 17025 accreditation is the technical proof that the laboratory is competent to produce valid, reliable and traceable testing results. SANAS accredits the laboratory for specific methods, matrices and analytes; it is not a generic “lab certificate”. A cannabis lab should pursue accreditation for each method that will appear on the Certificate of Analysis.
+Accreditation scope item
+Phase 1 target
+Cannabinoid potency
+HPLC-DAD/PDA method for flower, extracts and products as validated.
+Terpene profile
+GC-FID method using Rxi-624Sil MS or equivalent; validated analyte list.
+Residual solvents
+HS-GC-FID method using Rxi-624Sil MS or equivalent; validated solvent list.
+Phase 2 pesticides/mycotoxins
+LC-MS/MS method; scope extension after purchase, validation and proficiency evidence.
+Phase 2 heavy metals
+ICP-MS method; scope extension after digestion method and element panel validation.
+5.1 What Must Exist Before Applying to SANAS
+Quality manual aligned to ISO/IEC 17025:2017.
+Defined impartiality and confidentiality controls.
+Documented organisational structure and authority for technical and quality decisions.
+SOPs for document control, records, sample handling, equipment, calibrations, method validation, data review, reporting, complaints, nonconforming work, CAPA, internal audit and management review.
+Validated/verified methods with raw data and signed validation reports.
+Measurement uncertainty budgets for quantitative methods.
+Traceable calibration certificates for balances, pipettes, temperature devices, flow/pressure checks and reference standards where applicable.
+Staff training matrix, competence records and authorisation records.
+Internal QC plan: blanks, calibration checks, duplicates, spikes, CRMs, control charts and acceptance criteria.
+Proficiency testing or inter-laboratory comparison plan. Where formal cannabis PT is unavailable, justify alternative comparison approaches.
+Internal audit completed and management review completed before external assessment.
+5.2 SANAS Accreditation Process
+1. Define scope clearly: test method, matrix, analytes, range and uncertainty approach.
+2. Purchase/access the current ISO/IEC 17025 standard and relevant SANAS requirement documents.
+3. Build and implement the QMS; do not only write SOPs - create records proving use.
+4. Validate methods and generate evidence of fitness for purpose.
+5. Perform internal audit and management review. Correct findings before SANAS assessment.
+6. Submit SANAS application with proposed scope and documentation.
+7. Complete document review and pre-assessment/full assessment.
+8. Close nonconformances with root cause, corrective action and evidence.
+9. Receive accreditation certificate and schedule. Maintain through surveillance assessments and scope updates.
+6. Minimum ISO 17025 Documentation Pack
+Document group
+Minimum documents to create
+Governance
+Quality Manual; Impartiality Procedure; Confidentiality Procedure; Organogram; Job Descriptions; Authorization Matrix.
+Document and record control
+Document Control SOP; Records Control SOP; Master Document List; Record Retention Matrix.
+Sample control
+Sample Receipt SOP; Chain-of-Custody SOP; Sample Storage SOP; Retention/Disposal SOP; Cannabis Inventory Register.
+Technical methods
+HPLC-DAD Potency SOP; GC-FID Terpene SOP; HS-GC-FID Residual Solvent SOP; Phase 2 LC-MS/MS/ICP-MS SOPs later.
+Validation and quality control
+Method Validation SOP; Measurement Uncertainty SOP; QC Acceptance Criteria; Control Chart Procedure; PT/ILC Plan.
+Equipment
+Equipment Qualification SOP; Calibration SOP; Maintenance SOP; Instrument Logbooks; IQ/OQ/PQ Records.
+Personnel
+Training SOP; Competency Assessment SOP; Authorized Signatory Procedure; Training Matrix.
+Quality improvement
+Nonconforming Work SOP; CAPA SOP; Complaint Handling SOP; Risk Register; Change Control SOP.
+Data integrity
+Data Review SOP; LIMS SOP; Backup Procedure; Access Control Procedure; Audit Trail Review Procedure.
+Management system
+Internal Audit SOP; Management Review SOP; Supplier Qualification SOP; Purchasing SOP.
+7. Minimal Staffing Model and Sign-Off Requirements
+The lean model can work because the founder has 15+ years of GC technical experience. However, ISO 17025 requires documented competence, independence of quality functions, and authorized signatories. Instruments cannot sign results; competent, authorised people must review and release the Certificate of Analysis.
+Role
+Minimum phase
+Why needed
+Can it be outsourced?
+Technical Manager / GC Authorized Signatory
+Phase 1
+Owns technical validity of GC methods, equipment qualification, method validation, chromatographic review and final technical sign-off for GC scope.
+No for core technical accountability; founder can fill this if competence is documented.
+LC Analytical Chemist / HPLC Authorized Person
+Phase 1
+Runs and validates potency method, reviews LC chromatograms, manages cannabinoid standards and LC system suitability.
+Partially, but better as employee or retained consultant until founder/analyst competence is documented.
+Lab Analyst / Technician
+Phase 1
+Sample prep, routine sequences, glassware, chain-of-custody, batch preparation and QC checks.
+No, operational role required.
+Quality Manager / QA Consultant
+Phase 1
+Maintains ISO system, internal audits, CAPA, document control, management review and accreditation readiness.
+Yes initially as part-time consultant; full-time recommended as volume grows.
+MS Specialist
+Phase 2
+LC-MS/MS pesticides/mycotoxins and method validation.
+Can start as consultant/vendor applications support; in-house role recommended once service is active.
+ICP-MS Analyst
+Phase 2
+Heavy metals digestion, ICP-MS method, interference control, calibration and contamination management.
+Can start as consultant, but routine operations require trained analyst.
+7.1 Minimum Practical Team at Launch
+Founder as Technical Manager and GC Authorized Signatory, subject to documented competence and authorization in the QMS.
+One LC-focused analytical chemist or senior analyst for HPLC-DAD potency.
+One junior analyst/technician for sample prep, chain-of-custody and routine runs.
+Part-time ISO 17025 QA consultant until accreditation is achieved; convert to full-time Quality Manager as volumes and audit burden increase.
+8. Facility, Security and Controlled Substance Controls
+Area
+Required control
+Reception / sample intake
+Controlled receipt, unique sample ID, client chain-of-custody, condition check, photo if needed, acceptance/rejection criteria.
+Cannabis sample storage
+Locked cabinet/room, restricted access, inventory log, segregation by client/batch, temperature control where needed.
+Instrument rooms
+Stable power, gas supply, ventilation, temperature records if method-sensitive, restricted access to authorised analysts.
+Chemical storage
+Segregated flammables, acids/bases, standards, gases; SDS access; labelled containers; spill kits.
+Waste storage
+Clearly labelled solvent/cannabis waste; secure controlled waste awaiting destruction; manifests and disposal certificates.
+Security
+Access control, visitor log, key control, CCTV or equivalent where required by licence risk assessment, sample reconciliation.
+Data security
+User-specific logins, role-based access, audit trails, backed-up chromatographic data and LIMS data.
+9. Safety, Waste and Data Compliance
+Compliance area
+What must happen
+Occupational Health and Safety Act / Hazardous Chemical Agents
+Complete chemical risk assessments, maintain SDS, train staff, provide PPE, control exposure, label hazardous chemical agents, keep incident records and emergency procedures.
+Fire and flammable storage
+Confirm local fire requirements for solvent volumes, gas cylinders, flammable cabinets, ventilation, extinguishers, emergency exits and evacuation plan.
+Gas safety
+Cylinder restraints, regulators, leak checks, flashback arrestors for hydrogen where used, ventilation and safe shutdown procedure.
+Chemical and cannabis waste
+Use licensed waste contractors where required; segregate solvent, acid, contaminated cannabis and general waste; keep disposal certificates/manifests.
+POPIA / confidentiality
+Protect client data, reports, sample ownership information, employee records and commercial information; control access and retention.
+Insurance
+Professional indemnity, public liability, equipment insurance, business interruption, fire/theft and employer liability coverage.
+10. Phase 1 Analytical Scope and Evidence Required
+Test
+Instrument
+Regulatory/accreditation evidence required
+Cannabinoid potency
+HPLC-DAD/PDA + Raptor ARC-18 or equivalent
+Validated method; cannabinoid standards; calibration curves; system suitability; specificity; accuracy; precision; LOQ/LOD; uncertainty; chromatogram review; CoA template.
+Terpenes
+GC-FID + Rxi-624Sil MS or equivalent
+Validated terpene list; calibration standards; retention-time windows; resolution criteria; FID response checks; batch QC; uncertainty.
+Residual solvents
+Headspace GC-FID + Rxi-624Sil MS or equivalent
+Validated solvent panel; headspace conditions; calibration range; blank controls; carryover checks; solvent limits; uncertainty and batch acceptance criteria.
+11. Phase 2 Expansion Requirements
+Expansion area
+Instrument
+What must happen before offering the test
+Pesticides
+LC-MS/MS
+Purchase/qualify instrument; develop MRM method; validate pesticide panel in cannabis matrices; establish matrix-matched calibration/internal standards; participate in PT/ILC; add SANAS scope.
+Mycotoxins
+LC-MS/MS
+Validate extraction, cleanup, calibration and LOQs for target toxins; add QC acceptance criteria and SANAS scope.
+Heavy metals
+ICP-MS
+Set up digestion system, clean sample prep controls, contamination control, element calibration, interference correction, CRMs/spikes and SANAS scope.
+Regulatory scope change
+N/A
+Check whether SAHPRA licence amendment is required for new instruments, new analytes, new matrices or new facility areas.
+12. Certificate of Analysis and Result Sign-Off
+Every report must be technically defensible. The sign-off workflow should be built into the QMS and LIMS from day one.
+Analyst completes sample prep, sequence and first-level checks.
+Batch QC must pass: blanks, calibration verification, duplicates/spikes and system suitability.
+Technical reviewer checks chromatograms, integrations, calculations, QC and uncertainty where reported.
+Authorized Signatory releases the Certificate of Analysis only within their approved scope of competence.
+Reports must clearly state accredited vs non-accredited methods during pre-accreditation or when a method is outside the SANAS schedule.
+All raw data, calculations, audit trails and report versions must be retained under document/record control.
+13. Practical 12-Month Compliance Roadmap
+Month
+Regulatory / operational activity
+Deliverable
+0-1
+Confirm scope, regulatory attorney/QA consultant review, premises selection, company setup.
+Scope memo, company documents, regulatory gap assessment.
+1-2
+Facility design, SAHPRA pre-submission pack, initial QMS document set.
+Site drawings, Site Master File draft, SOP index.
+2-3
+Equipment sourcing, supplier qualification, security design, waste contractor selection.
+Supplier list, CAPEX purchase plan, security/waste SOPs.
+3-4
+Instrument installation/qualification and staff onboarding.
+IQ/OQ/PQ records, training matrix, instrument logs.
+4-6
+Method validation for potency, terpenes and residual solvents.
+Validation reports, uncertainty budgets, CoA templates.
+5-7
+SAHPRA licence submission and inspection readiness.
+Submitted application, inspection file, CAPA process.
+6-8
+Internal audit and management review.
+Internal audit report, management review minutes, corrective actions.
+7-10
+SANAS application, assessment and CAPA closure.
+SANAS application, assessment report, evidence pack.
+10-12
+Accreditation finalisation, commercial scale-up, Phase 2 planning.
+Accreditation schedule, sales package, Phase 2 feasibility.
+14. Critical Path Risks and Mitigations
+Risk
+Impact
+Mitigation
+Licence delay
+Cannot legally handle/market full regulated cannabis testing scope.
+Submit high-quality pack; engage SAHPRA early; maintain pre-inspection readiness.
+SANAS nonconformances
+Accreditation delayed, lower investor/client confidence.
+Use experienced ISO 17025 consultant; internal audit before application; close CAPAs with evidence.
+Insufficient LC competence
+Potency method risk and sign-off weakness.
+Hire LC chemist or validate founder/analyst competence through training and documented authorization.
+Poor data integrity
+Results challenged; accreditation failure.
+LIMS, audit trails, role-based access, controlled report templates, raw data retention.
+Controlled substance reconciliation gaps
+SAHPRA risk and potential legal exposure.
+Inventory logs, secure storage, destruction records and routine reconciliation.
+Underestimated OPEX
+Cash pressure before sample volume ramps.
+Maintain working capital reserve; use phased hiring; outsource QA initially.
+15. Investor and Regulator Evidence Checklist
+Company registration, tax details and ownership structure.
+Premises lease/offer, zoning confirmation and facility layout.
+SAHPRA licence application pack and submission status.
+NDoH permit application/status for scheduled substances.
+Quality Manual and SOP register.
+Organogram, CVs, job descriptions and competence matrix.
+Equipment quotations/purchase orders and IQ/OQ/PQ plan.
+Method validation plans and completed validation reports when available.
+Calibration and supplier qualification records.
+Waste contractor agreement and safety risk assessment.
+Security plan, access-control plan and cannabis sample inventory procedure.
+SANAS application plan and proposed accreditation scope.
+Financial model showing Phase 1 cash needs, break-even, and Phase 2 funding trigger.
+16. Key Source References Used
+The following public sources informed this planning document. Final submissions should always use the latest regulator forms and guidance downloaded directly from the relevant regulator websites.
+Source
+Relevance
+SAHPRA licence application process
+SAHPRA lists forms including GLF-LIC-01A for manufacture/import/export medicines and scheduled substances including contract testing laboratories, and GLF-LIC-05A for cannabis medicinal purposes.
+SAHPRA medicinal cannabis guidance
+SAHPRA guidance states that applicants may apply for a Section 22C(1)(b) licence for activities including “extract and test Cannabis, Cannabis resin and/or cannabinoids”; it also references possible Section 22A permit requirements.
+SANAS Accreditation Toolkit
+SANAS states that testing and calibration laboratories comply with ISO/IEC 17025.
+SANAS ISO/IEC 17025 management requirements checklist
+SANAS checklist covers impartiality, confidentiality and management-system requirements for ISO/IEC 17025:2017.
+Cannabis for Private Purposes Act 7 of 2024
+South African Government page states the Act regulates private adult use/possession and prohibits dealing. It does not replace the medicinal/scheduled-substance licensing pathway for testing labs.
+Draft Cannabis Regulations 2025 / 2026 notice
+Department of Justice draft regulations under the Cannabis for Private Purposes Act were open for comments by 5 March 2026 and indicate ongoing regulatory development.
+OHS Act / Hazardous Chemical Agents Regulations 2021
+Applicable to laboratory chemical risk assessment, SDS, PPE, training, labelling and exposure control.
+POPIA
+Applies to processing of client, employee and business personal information in South Africa.
+dtic cannabis application checklist
+References need for Section 22C licence and DG Health permits for cannabis/hemp manufacturing/incentive contexts; useful as a cross-check for investor due diligence.

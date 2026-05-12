@@ -1,0 +1,133 @@
+﻿AfriCanna Analytics
+Financial Model Summary & Investor Explanation
+South African Cannabis Analytical Testing Laboratory
+This document summarizes the 5-year financial model in clear investor-friendly language. It explains what each page in the workbook covers, the key financial figures, the break-even logic, and how the model supports a phased cannabis testing laboratory strategy.
+Area
+Summary
+Phase 1 focus
+GC-FID residual solvents, GC-FID terpene profiling, HPLC-DAD cannabinoid potency testing.
+Phase 2 expansion
+LC-MS/MS for pesticides/mycotoxins and ICP-MS for heavy metals.
+Business model
+Per-sample recurring analytical testing with bundled panels and fast turnaround options.
+Core driver
+Sample volume per day x working days x average revenue per sample.
+Break-even logic
+Fixed costs / contribution margin per sample / 22 working days.
+1. Key Figures and Financial Logic
+The model is built around a phased laboratory strategy. Phase 1 uses lower-complexity, high-demand analytical testing to generate revenue early. Phase 2 adds higher-value compliance testing once sample volume and cash flow justify larger capital expenditure.
+Metric
+Indicative Value / Formula
+What it Means
+Average revenue per sample
+R2,000 - R3,500
+Blended pricing across potency, terpene, residual solvent, and later compliance panels.
+Working days per month
+22
+Used to convert daily sample volume into monthly volume.
+Variable cost per sample
+R100 - R300
+Consumables such as solvents, vials, filters, gases, standards, and waste handling.
+Contribution margin per sample
+Average revenue - variable cost
+Cash contribution from each sample before fixed costs.
+Break-even samples/month
+Fixed costs / contribution margin
+Number of samples required each month to cover fixed costs.
+Break-even samples/day
+Break-even samples/month / 22
+Daily sample volume required to break even.
+Simple break-even example: If fixed monthly costs are R250,000, average revenue per sample is R2,500, and variable cost per sample is R250, then contribution margin is R2,250 per sample. Break-even is R250,000 / R2,250 = 111 samples/month. At 22 working days/month, that equals approximately 5 samples/day. The actual workbook can show a higher break-even if staffing, rent, QA, maintenance, or overhead assumptions are higher.
+2. Workbook Page-by-Page Breakdown
+Dashboard
+Investor-facing summary of the overall business case.
+Total revenue, EBITDA, cash position, funding requirement, break-even point, and charts.
+Investor explanation: Shows whether the lab can become profitable and how much capital is required.
+Inputs / Assumptions
+The control center of the model.
+Currency, working days, samples/day, prices, costs, staffing, CAPEX, growth, and funding inputs.
+Investor explanation: Allows the business case to be updated quickly without hardcoding numbers throughout the workbook.
+Scenario Selector
+Compares conservative, base-case, and upside-case outcomes.
+Changes volume, pricing, growth, CAPEX timing, staffing ramp, and Phase 2 timing.
+Investor explanation: Shows downside risk and upside potential.
+Test Mix / Service Mix
+Defines what the lab sells and how each service contributes to revenue.
+Phase 1: potency, terpenes, residual solvents. Phase 2: pesticides, mycotoxins, heavy metals.
+Investor explanation: Calculates blended average revenue per sample instead of relying on one generic test price.
+CAPEX
+Lists the equipment and setup investment required.
+Two GC-FIDs, headspace sampler, HPLC-DAD, columns, sample prep equipment, balances, LIMS, lab setup, LC-MS/MS, ICP-MS.
+Investor explanation: Shows exactly how investor money is used and separates Phase 1 essentials from Phase 2 expansion.
+CAPEX & Depreciation
+Spreads equipment costs over their accounting useful lives.
+Purchase cost, purchase year, useful life, annual depreciation, and net book value.
+Investor explanation: Separates cash impact from accounting profit impact.
+Staffing
+Shows the personnel needed to operate the lab and support ISO 17025 competence.
+Founder/Technical Manager, LC chemist, lab technician, QA consultant, then MS/ICP specialists and full-time QA as the lab scales.
+Investor explanation: Keeps Phase 1 lean while proving that the lab has competent personnel.
+OPEX
+Shows recurring monthly operating costs.
+Salaries, rent, utilities, gases, solvents, standards, calibration, maintenance, waste disposal, insurance, LIMS, QA, marketing, security, IT.
+Investor explanation: Separates fixed and variable costs so break-even can be calculated correctly.
+Revenue Model
+Calculates income from sample volume and service mix.
+Samples/day, 22 working days/month, service pricing, test uptake, bundled panels, and fast-turnaround options.
+Investor explanation: Core formula: Monthly Revenue = Samples per Day x 22 x Average Revenue per Sample.
+P&L / Income Statement
+Shows whether the business is profitable.
+Revenue, variable costs, gross profit, OPEX, EBITDA, depreciation, EBIT, interest, tax, and net profit.
+Investor explanation: EBITDA is the main investor metric for operating profitability.
+Cash Flow
+Shows actual cash movement over time.
+Opening cash, operating cash flow, CAPEX, funding received, repayments, and closing cash.
+Investor explanation: Shows funding runway and when the business becomes self-funding.
+Break-Even Analysis
+Calculates the minimum sample volume required to cover fixed costs.
+Fixed monthly costs, contribution margin per sample, break-even samples/month, and break-even samples/day.
+Investor explanation: If break-even is 5-15 samples/day, the lab can be attractive because actual instrument capacity is much higher.
+Sensitivity Analysis
+Stress-tests changes in major assumptions.
+Volume, pricing, costs, staffing, CAPEX, and expansion timing.
+Investor explanation: Identifies the key drivers: sample volume, average price, staffing efficiency, and CAPEX timing.
+Sources / Caveats
+Documents assumptions and areas requiring verification.
+Supplier quotes, regulatory timing, accreditation timing, pricing assumptions, and exchange rates.
+Investor explanation: Improves investor trust by showing what is estimated and what still needs due diligence.
+3. How the Model Works Together
+The workbook is designed as a connected model, not a collection of disconnected tables. Inputs drive the test mix, revenue, costs, profit, cash flow, break-even, sensitivities, and dashboard.
+Model Flow
+Description
+Inputs
+Core assumptions are entered once.
+Test Mix / Service Mix
+Defines what the lab sells and at what price.
+Revenue Model
+Calculates sample-driven income.
+CAPEX, Staffing, and OPEX
+Calculate investment, people, and operating costs.
+P&L and Cash Flow
+Show profitability and cash needs.
+Break-Even and Sensitivity
+Show minimum viable volume and risk scenarios.
+Dashboard
+Summarizes the investment case for presentation.
+4. Phase 1 and Phase 2 Strategy
+Phase
+Services
+Instruments
+Business Logic
+Phase 1
+Potency, terpenes, residual solvents
+HPLC-DAD, GC-FID x2, headspace sampler
+Launch lean, generate revenue early, keep CAPEX controlled.
+Phase 2
+Pesticides, mycotoxins, heavy metals
+LC-MS/MS and ICP-MS
+Expand into full compliance testing once volume justifies the investment.
+5. Investor Explanation Summary
+Use the following wording when explaining the model to investors:
+This financial model is built around a phased cannabis testing lab strategy. Phase 1 uses two GC-FID systems and one HPLC-DAD system to generate revenue from potency, terpene, and residual solvent testing. Revenue is calculated from sample volume, test mix, and average price per sample. Costs are separated into staffing, consumables, rent, QA, maintenance, and other operating expenses. CAPEX is phased so the business can launch lean, prove demand, and then expand into LC-MS/MS and ICP-MS for pesticides, mycotoxins, and heavy metals. The dashboard summarizes the investment case, while the break-even and sensitivity pages show operating risk and upside potential.
+6. Most Important Takeaway
+This is not just a cannabis idea. It is a regulated analytical testing business with clear equipment requirements, recurring revenue, scalable margins, a phased capital plan, and a credible path from startup lab to full compliance laboratory.

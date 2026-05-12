@@ -1,0 +1,16 @@
+<svg width="560" height="144" viewBox="0 0 560 144" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">AfriCanna Analytics logo option A</title>
+  <desc id="desc">Minimal monogram with chromatogram lines and AfriCanna Analytics wordmark.</desc>
+  <rect width="560" height="144" rx="0" fill="transparent"/>
+  <g transform="translate(26 24)">
+    <path d="M41 92L74 8L107 92" stroke="#21423A" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M55 58H93" stroke="#9AD55B" stroke-width="8" stroke-linecap="round"/>
+    <path d="M28 92C43 84 55 77 63 68C71 59 77 47 81 32C91 50 101 62 112 70C124 78 137 84 152 92" stroke="#6FB246" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M23 104H157" stroke="#DDE5DF" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="74" cy="8" r="5" fill="#9AD55B"/>
+  </g>
+  <g transform="translate(210 35)" fill="#1D2824">
+    <text x="0" y="40" font-family="Inter, Arial, sans-serif" font-size="40" font-weight="650" letter-spacing="0">AfriCanna</text>
+    <text x="2" y="76" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="420" letter-spacing="5" fill="#65736B">ANALYTICS</text>
+  </g>
+</svg>

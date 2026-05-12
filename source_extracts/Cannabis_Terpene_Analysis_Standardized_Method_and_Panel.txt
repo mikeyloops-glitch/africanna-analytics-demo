@@ -1,0 +1,188 @@
+﻿Standardized Cannabis Flower Terpene Analysis
+Core-18 analyte panel, sample preparation, vial loading, GC method options, and reporting calculations
+Prepared for method-planning and documentation purposes | May 2026
+1. Executive Summary
+The analytical sample is the representative, homogenized cannabis flower itself, not the ethanol/solvent. Solvent or headspace preparation transfers volatile terpenes from the flower into an injectable phase or vapor phase for GC analysis.
+The standard analytical platform is gas chromatography with MS or FID detection. HS-GC, HS-SPME-GC-MS, and solvent extraction followed by liquid-injection GC-MS/GC-FID are all common. ASTM WK87438 describes a headspace-GC procedure for Cannabis sativa plant materials and recognizes MS and FID detectors as suitable.
+For a practical compliance-style panel, this document standardizes a core-18 terpene/terpenoid list. The list is derived from common cannabis lab panels and commercial cannabis terpene CRMs, especially Restek Cannabis Terpenes Standard #1, which contains 19 major cannabis-lab terpenes, plus Standard #2 for caryophyllene oxide and eucalyptol.
+Results are normally reported as mg/g, micrograms/g, or % w/w. Total terpenes equals the sum of quantified target analytes, not every terpene present in the plant.
+2. Standardized Core-18 Terpene Analyte Panel
+There is no single globally mandatory “18-terpene” list. Laboratories define the validated panel based on the column, detector, reference standards, resolution, and jurisdictional/client requirements. The following core-18 is a practical standardized panel for cannabis flower and is intentionally aligned to analytes found in common cannabis terpene CRM mixes and COAs.
+#
+Analyte
+Class
+Analytical notes
+1
+α-Pinene
+Monoterpene
+Very volatile; pine/resin; early GC elution.
+2
+Camphene
+Monoterpene
+Volatile; often near α-pinene region; isomer resolution matters.
+3
+β-Pinene
+Monoterpene
+Volatile; separate from α-pinene; common cannabis marker.
+4
+β-Myrcene
+Monoterpene
+Often one of the dominant cannabis terpenes; high abundance in many chemovars.
+5
+δ-3-Carene
+Monoterpene
+Resinous monoterpene; usually lower abundance but common in panels.
+6
+α-Terpinene
+Monoterpene
+Isomeric monoterpene; requires validated retention time/ion confirmation.
+7
+p-Cymene
+Aromatic monoterpenoid hydrocarbon
+Often listed as p-isopropyltoluene/p-cymene; included in terpene panels.
+8
+D-Limonene
+Monoterpene
+Citrus terpene; typically abundant and robust by GC.
+9
+Ocimene (total or isomers)
+Monoterpene
+Can be reported as total ocimene or separated cis/trans/β-ocimene depending on method.
+10
+Eucalyptol / 1,8-Cineole
+Oxygenated monoterpenoid
+Often in a supplemental mix because of stability/compatibility considerations.
+11
+γ-Terpinene
+Monoterpene
+Isomeric monoterpene; common in commercial standards.
+12
+Terpinolene
+Monoterpene
+Important chemovar marker; late monoterpene region.
+13
+Linalool
+Oxygenated monoterpenoid
+Floral oxygenated terpene; sometimes more matrix/method-sensitive.
+14
+Geraniol
+Oxygenated monoterpenoid
+Alcohol terpenoid; often included in broader panels.
+15
+β-Caryophyllene
+Sesquiterpene
+Major cannabis sesquiterpene; less volatile; late GC elution.
+16
+α-Humulene
+Sesquiterpene
+Commonly tracks with β-caryophyllene; late elution.
+17
+Nerolidol
+Oxygenated sesquiterpenoid
+Lower volatility; headspace may under-recover vs liquid injection.
+18
+α-Bisabolol
+Oxygenated sesquiterpenoid
+Late-eluting oxygenated sesquiterpenoid; useful in full flower profiles.
+Common optional add-ons: caryophyllene oxide, guaiol, isopulegol, farnesene, valencene, fenchol, borneol, α-terpineol, sabinene, camphor, α/β-ocimene isomers, and additional sesquiterpenes. Restek’s published cannabis terpene CRM set includes 19 analytes in Standard #1 and two analytes in Standard #2, so many labs validate 21 or more targets rather than exactly 18.
+3. Practical Differences Between the Analytes
+Group
+Chemistry
+Examples
+Method implication
+Monoterpenes
+C10 hydrocarbons
+α-pinene, β-pinene, myrcene, limonene, terpinolene
+Most volatile; strong headspace response; can be lost through grinding, heat, or poor vial sealing.
+Oxygenated monoterpenoids
+C10 compounds containing oxygen
+linalool, geraniol, eucalyptol
+Often more polar; may show different extraction efficiency and matrix effects.
+Sesquiterpenes
+C15 hydrocarbons
+β-caryophyllene, α-humulene
+Less volatile; later GC elution; can be underrepresented in simple headspace methods.
+Oxygenated sesquiterpenoids
+C15 oxygenated compounds
+nerolidol, α-bisabolol, caryophyllene oxide
+Lowest volatility in the panel; liquid injection can improve quantitation vs headspace.
+4. Analytical Method Options
+4.1 Preferred instrument family
+Terpenes are volatile/semi-volatile compounds, so GC is the standard separation technique. Detection is commonly by MS for confirmation/selected-ion quantitation or by FID for robust quantitation once identity is established. ASTM WK87438 describes HS-GC for Cannabis sativa plant materials and states the method is independent of detector type, with both MS and FID used in practice.
+4.2 Headspace / HS-SPME-GC-MS workflow
+Best for volatile monoterpenes and solvent-free profiling. A typical HS-SPME setup from MilliporeSigma uses 0.5 g dried cannabis in a 10 mL headspace vial, 30 min equilibration at 40 °C, 20 min headspace extraction at 40 °C, and 3 min fiber desorption at 270 °C on a GC column. The closed headspace vial minimizes loss of volatiles once sealed.
+Parameter
+Typical practice
+Sample size
+0.2–0.5 g homogenized dried flower is typical; 0.5 g in a 10 mL vial is a published HS-SPME example.
+Vial
+10 mL or 20 mL crimp/screw headspace vial with PTFE/silicone septum; seal immediately after weighing.
+Equilibration
+Typically 40 °C, 20–30 min. Higher temperatures increase response but can shift equilibrium and risk losses/artifacts.
+Extraction/injection
+Static headspace, HS-SPME fiber, HS-SPME Arrow, or headspace syringe. HS-SPME commonly uses DVB/CAR/PDMS fiber.
+Detector
+GC-MS for ID/confirmation; GC-FID for routine quantitation; both require calibration with reference standards.
+4.3 Solvent extraction + liquid-injection GC-MS workflow
+Best when the lab wants stronger recovery of less-volatile sesquiterpenes and oxygenated terpenoids. Restek’s validated LI-syringe-GC-MS workflow used 0.5 g homogenized flower/shake in a 10 mL ASE cell, IPA extraction, final extract volume of 12 mL, filtration through 0.22 µm PTFE, and 500 µL extract in a 2 mL autosampler vial with internal standard. Frontiers published a comparable preparation and also described a manual option: 0.5 g homogenized flower plus 12 mL IPA in a 50 mL centrifuge tube, vortex 3 min, sonicate 5 min at 40 °C, centrifuge 3 min, then analyze extract.
+Step
+Documentation-ready description
+1. Homogenize
+Break representative dried flower into a uniform sample. Minimize heat and open-air time to avoid terpene loss.
+2. Weigh sample
+Common method mass: 0.5 g. A 1.0 g sample can be used only if extraction volume, calibration range, and recovery are validated.
+3A. ASE extraction
+Place 0.5 g into 10 mL ASE cell, fill void with diatomaceous earth, extract with IPA; published conditions include 75 °C, 1500 psi, 5 min static, one cycle, 90 sec purge, final volume 12 mL.
+3B. Manual extraction
+Alternative: 0.5 g in 50 mL centrifuge tube + 12 mL IPA; vortex 3 min, sonicate at 40 °C for 5 min, centrifuge 3 min.
+4. Filter
+Filter aliquot through 0.22 µm PTFE into a clean vial.
+5. Autosampler vial
+Transfer a measured aliquot, e.g., 500 µL or 1 mL, into a 2 mL GC autosampler vial; add internal standard where used; cap immediately.
+6. Analyze
+Inject by split/splitless liquid injection into GC-MS or GC-FID. Quantify against multi-point calibration standards.
+5. Sample Packaging Into the Vial
+Use case
+Recommended vial handling
+Flower for HS/HS-SPME
+Use a clean 10 or 20 mL headspace vial. Tare vial if needed, add 0.5 g homogenized dried flower, avoid compacting sample, immediately seal with PTFE/silicone septum cap. Record sample ID, mass, vial ID, date/time sealed, and analyst.
+Calibration/QC for HS
+Prepare standards/QCs in matched headspace vials. Some HS methods use salt/water matrices to force partitioning; one study prepared standards in 20 mL HS vials with NaCl, standard solution, and water.
+Extract for liquid injection
+Use an amber or clear 2 mL GC autosampler vial with low-bleed septum. Add filtered extract aliquot and internal standard; ensure sufficient headspace remains; cap tightly; avoid extended bench exposure.
+Holding/handling
+Keep samples sealed, cool, and protected from light. Avoid repeated opening; terpene loss is a real pre-analytical variable.
+6. Calibration, Quantitation, and Reporting Units
+Quantitation is not based on smelling the vial or visually reading a chromatogram. Each terpene is quantified against certified reference standards and a calibration curve. Internal standards, such as deuterated naphthalene in the Restek workflow, can correct for injection variability and improve method control.
+For solvent extraction, use the following calculation:
+Terpene (µg/g) = [Cextract (µg/mL) × final extract volume (mL) × dilution factor] ÷ sample mass (g)
+Unit
+Meaning
+µg/g
+Primary mass-normalized result; common in method development papers.
+mg/g
+µg/g ÷ 1000. Often easier for COAs.
+% w/w
+mg/g ÷ 10. Example: 10 mg/g = 1.0% w/w.
+Total terpenes
+Sum of target analytes quantified above LOQ; not the full universe of cannabis terpenes.
+Example: 0.5 g flower extracted to 12 mL. If β-myrcene in the extract is 50 µg/mL and no additional dilution is made: (50 × 12) ÷ 0.5 = 1,200 µg/g = 1.2 mg/g = 0.12% w/w.
+7. Can Terpenes and Cannabinoids Be Analyzed on the Same Column?
+Technically, yes, certain GC liquid-injection methods can monitor terpenes and cannabinoids in the same chromatographic run/column, but this is not the usual best-practice compliance setup. Terpenes are volatile and elute early; cannabinoids are much less volatile, higher-boiling compounds and may require derivatization or high-temperature GC conditions. A Waters application note specifically states that solvent extraction and liquid injection allow monitoring cannabidiol and THC in the same method, while standard headspace does not recover THC/CBD well because cannabinoids are not sufficiently volatile.
+Practical recommendation: validate terpenes and cannabinoids as separate methods unless there is a strong operational reason to combine them. A combined GC method can be useful for R&D screening, but separate terpene GC and cannabinoid HPLC methods are usually cleaner for regulated potency reporting.
+8. Suggested Documentation Template for a Flower Terpene SOP
+Scope: Quantitative analysis of core-18 terpenes/terpenoids in dried cannabis flower.
+Matrix: Representative dried flower, homogenized immediately before analysis.
+Sample mass: 0.5 g validated default; 1.0 g acceptable only after method verification.
+Preparation route A: HS/HS-SPME for solvent-free volatile terpene profiling.
+Preparation route B: IPA solvent extraction + liquid-injection GC-MS/FID for broader monoterpene/sesquiterpene quantitation.
+Calibration: Multi-point calibration using CRMs, preferably matrix-matched or surrogate-matrix matched where possible.
+QC: Method blank, continuing calibration verification, laboratory control sample/spike, duplicate sample, and internal standard response checks.
+Acceptance: Retention time match, qualifier ion confirmation for MS methods, calibration fit acceptance, blank control, and precision/recovery criteria defined during validation.
+9. Key References Used
+ASTM International. WK87438: New Test Methods for Analysis of Terpenoids in Cannabis Materials using Head-Space Gas Chromatography (HS-GC). Describes HS-GC procedures for Cannabis sativa plant materials and recognizes MS/FID detection.
+Restek. “Analysis of Terpenes in Cannabis Flower via LI-Syringe-GC-MS” (2023). Provides validated LI-syringe-GC-MS workflow, 0.5 g sample mass, 12 mL final extract volume, filtration, internal standard addition, calibration range, precision, recovery, and example terpene results.
+Myers C. et al. “Accelerated Solvent Extraction of Terpenes in Cannabis Coupled With Various Injection Techniques for GC-MS Analysis.” Frontiers in Chemistry, 2021. Compares ASE and manual solvent extraction; describes 0.5 g flower, IPA extraction, and vial preparation approaches.
+MilliporeSigma / Supelco. “GC Analysis of Terpenes in Cannabis on Equity-1 after Headspace SPME.” Provides example HS-SPME conditions: 0.5 g dried cannabis in 10 mL headspace vial, 40 °C equilibration/extraction, DVB/CAR/PDMS fiber, 60 m GC column.
+Waters. “Terpenes in Hemp and Cannabis Determined Using EI GC-MS/MS.” Notes that solvent extraction/liquid injection can monitor CBD/THC in the same method, while standard headspace is unsuitable for THC/CBD recovery because cannabinoids are not sufficiently volatile.
+Restek. “Cannabis Certified Reference Materials for Cannabis Analysis.” Lists Cannabis Terpenes Standard #1, 19 components, formulated to contain major terpenes analyzed by cannabis labs, plus Standard #2 for caryophyllene oxide and eucalyptol.

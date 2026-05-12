@@ -1,0 +1,172 @@
+﻿STRATEGIC PARTNERSHIP PROPOSAL
+Cannabis Residual Solvent GC-FID Analyzer Application Development
+Proposal for NIRA Instruments
+Prepared by: Michael Lepen - Proposed Pilot Location: South Africa
+Core propositionAdapt the existing fast residual GC-FID analyzer platform into a cannabis-ready residual solvent testing solution, using South Africa as a live pilot market and demonstration site. The project creates a new product application for the manufacturer and a differentiated analytical platform for the proposed cannabis testing lab.
+1. Executive Summary
+This proposal outlines a strategic collaboration between Africanna Analytics and NIRA Instruments to adapt, validate, and commercialize a fast GC-FID residual solvent analyzer for the cannabis and botanical testing markets.
+The manufacturer already has a strong platform: a fast residual GC-FID instrument with integrated headspace capability. With a cannabis-specific column configuration, optimized headspace parameters, dedicated calibration standards, and an ISO-ready method package, the instrument can become a highly practical testing solution for cannabis extraction laboratories and independent testing facilities.
+The proposed South African lab provides the ideal pilot environment: an emerging cannabis market, a real need for affordable testing capacity, and a founder with more than 13 years of GC installation, calibration, and technical field experience.
+Commercial insightThe lowest-risk product opportunity is not to design a new instrument from zero. It is to repurpose and validate an existing GC-FID platform into a repeatable cannabis residual solvent analyzer package that can be sold into multiple markets.
+2. Why This Opportunity Exists
+Cannabis testing is becoming increasingly important as producers, extractors, and product brands move toward regulated production, quality control, and export readiness. Residual solvent testing is one of the strongest fit-for-purpose applications for GC-FID because the analytes are volatile organic compounds and FID is robust, sensitive, and cost-effective for routine hydrocarbon and solvent testing.
+Market driver
+Why it matters
+More cannabis extraction activity
+Extracts, oils, resins, and concentrates require solvent residue control.
+Need for affordable testing
+Many producers cannot justify GC-MS or LC-MS/MS for routine in-house QC.
+Regulatory pressure
+Laboratories need validated methods, traceable calibration, chain-of-custody, and defensible results.
+Export requirements
+Export-oriented cannabis products require reliable analytical documentation.
+Platform leverage
+The existing analyzer can potentially be adapted with limited hardware change.
+3. Proposed Collaboration Model
+The collaboration would use the proposed South African cannabis testing lab as a live pilot, validation, and demonstration site for the adapted residual solvent analyzer.
+NIRA Instruments provides instrument platform support, engineering input, analyzer documentation, and possible demonstration-unit or preferential purchase support.
+[Africanna Analytics provides pilot site, application development, real sample testing, market feedback, method documentation, and demonstration access.
+Joint output: a market-ready analyzer package for cannabis residual solvent testing, supported by chromatograms, validation data, SOPs, calibration protocols, and sales material.
+4. Technical Concept
+4.1 Instrument Platform
+The base platform is the company’s fast residual GC-FID analyzer with integrated headspace capability. The proposed adaptation focuses on method and application development rather than a completely new instrument design.
+4.2 Detector
+The detector remains FID. Flame ionization detection is well suited for residual solvents because it provides robust response to organic compounds, has a broad linear range, and is easier and cheaper to operate than mass spectrometry for routine solvent QC.
+4.3 Column
+The suggested starting column is Restek Rxi-624Sil MS or an equivalent 624-type volatile organic compound column. A practical starting dimension is 30 m x 0.25 mm x 1.40 micrometer. This phase is suitable for volatile solvent separation and residual solvent work.
+4.4 Sample Introduction
+The method should use the integrated headspace system. Headspace sampling reduces matrix interference, minimizes injection of heavy cannabis oils into the GC, improves system cleanliness, and makes routine workflows simpler for non-expert operators.
+4.5 Cannabis Sample Preparation
+A cannabis-specific sample preparation workflow must be developed for flower, extracts, oils, concentrates, distillates, resins, and potentially edibles. The SOP should define sample weight, vial size, diluent, internal standard strategy, equilibration temperature, equilibration time, agitation, and acceptance criteria.
+5. Initial Residual Solvent Panel
+The first commercial method should target a practical solvent panel relevant to cannabis extraction and botanical processing. The final regulated list should be adjusted to the target jurisdiction and customer requirements.
+Solvent group
+Example target compounds
+Reason for inclusion
+Alcohols
+Methanol, ethanol, isopropanol
+Common extraction, cleaning, or processing solvents.
+Ketones
+Acetone
+Common solvent with strong GC-FID suitability.
+Esters
+Ethyl acetate
+Common botanical and extraction solvent.
+Hydrocarbons
+Butane, propane, pentane, hexane, heptane
+Highly relevant for cannabis extraction and concentrates.
+Aromatics
+Toluene, xylene
+Important to control due to toxicity concerns and solvent impurity risk.
+6. Development and Validation Roadmap
+Phase
+Objective
+Key outputs
+1. Feasibility
+Confirm the analyzer can be adapted to cannabis residual solvent analysis.
+Initial chromatograms, retention-time table, basic calibration curves, feasibility report.
+2. Method Optimization
+Optimize column, oven program, headspace settings, carrier conditions, split ratio, and sample preparation.
+Optimized method file, sample preparation SOP, system suitability criteria.
+3. Validation
+Generate ISO-ready performance evidence.
+Validation report covering specificity, linearity, accuracy, precision, LOD, LOQ, robustness, carryover, and uncertainty.
+4. Live Market Demonstration
+Run real customer samples in South Africa and collect feedback.
+Case study, customer feedback, throughput data, cost-per-sample analysis.
+5. Commercial Packaging
+Convert the method into a sellable analyzer application package.
+Application note, SOP pack, calibration kit concept, pricing model, training package.
+7. ISO-Ready Method Deliverables
+The project should be structured to generate documentation suitable for an ISO/IEC 17025 testing laboratory. This does not mean the instrument itself becomes ISO-accredited. Rather, the laboratory method, equipment qualification, calibration traceability, operator competence, quality controls, and reporting process become part of the accredited scope.
+Method SOP for cannabis residual solvent testing by HS-GC-FID.
+Sample preparation SOP by matrix type.
+Instrument setup and operating procedure.
+Calibration and standard preparation SOP.
+System suitability criteria and QC acceptance limits.
+Method validation report template and completed validation data.
+Certificate of Analysis template.
+Training and competency checklist for operators.
+Maintenance, calibration, and performance-check records.
+Data review and authorized signatory workflow.
+8. Growth and Profitability Logic
+The commercial appeal of this project is that residual solvent testing can be high-throughput, repeatable, and profitable when performed on a dedicated GC-FID platform. The cost per sample is relatively low compared with mass spectrometry, and the instrument can be positioned as an affordable entry point for laboratories and extraction facilities.
+Profitability driver
+Explanation
+High instrument utilization
+A dedicated residual solvent analyzer can run routine batches with minimal method switching.
+Low variable cost per sample
+Typical consumables are vials, septa, standards, gases, diluent, and basic prep materials.
+Repeat testing demand
+Extractors and producers need batch-by-batch testing, especially for concentrates and oils.
+Fast turnaround premium
+Customers value rapid release testing when product batches are waiting for QC clearance.
+Expandable product line
+The same platform concept may extend into terpenes, essential oils, botanical volatiles, and agricultural VOCs.
+Sales multiplier for manufacturer
+One validated application can create repeatable instrument sales across multiple customers and countries.
+Investor and manufacturer insightFor the lab, the analyzer supports revenue from routine residual solvent testing. For the manufacturer, the same validated application becomes a repeatable product package that can be sold to other cannabis, botanical, and agricultural testing customers.
+9. Commercial Models
+Model
+How it works
+Benefit
+Demonstration instrument agreement
+Manufacturer places a unit at the pilot lab for a defined development period.
+Low upfront cost for pilot site; strong real-world data for manufacturer.
+Discounted pilot purchase
+Pilot lab purchases the instrument at a preferential price in exchange for data and reference-site status.
+Simple commercial structure with aligned incentives.
+Joint application-development project
+Both parties co-develop the method, application note, and commercial package.
+Best for creating defensible technical and marketing material.
+Regional demonstration partnership
+Pilot lab becomes South African/regional demo and application support partner.
+Creates future sales, service, training, and support revenue.
+Distribution / commission model
+Pilot lab generates leads and supports installations for future instrument sales.
+Creates longer-term upside beyond testing revenue.
+10. Benefits to NIRA Instruments
+Access to a growing cannabis and botanical testing segment.
+Low development risk because the project leverages an existing GC-FID analyzer platform.
+Real-world pilot data from a functioning South African cannabis testing environment.
+Commercial application note and sales material for future analyzer sales.
+Potential regional demonstration and distribution partner.
+Expansion opportunity into residual solvents, terpenes, essential oils, agricultural VOCs, and botanical extract QC.
+11. Benefits to the South African Lab
+Access to a fast residual solvent testing platform at launch.
+Differentiation through manufacturer-supported method development.
+Potentially reduced capital burden through demonstration or discounted pilot arrangement.
+ISO-ready documentation and validation pathway.
+Ability to offer rapid residual solvent testing as part of Phase 1 services.
+Potential additional revenue through demonstrations, training, and regional instrument support.
+12. Roles and Responsibilities
+Party
+Primary responsibilities
+NIRA Instruments
+Provide analyzer information, technical support, possible pilot/demonstration unit, engineering input, configuration review, commercial packaging support, and co-development of application material.
+Africanna Analytics
+Provide pilot site, method development work, real sample testing, cannabis market access, ISO documentation support, customer feedback, demonstration access, and reporting of field performance.
+Joint team
+Agree technical scope, define solvent panel, approve validation plan, review results, prepare application note, and define future commercial structure.
+13. Pilot Success Criteria
+Clear separation of target solvents with stable retention times.
+Linearity across the expected working concentration range.
+Acceptable precision and repeatability for routine QC use.
+Low carryover between samples.
+Practical sample preparation workflow for cannabis matrices.
+Competitive run time and daily throughput.
+Validated reporting workflow suitable for ISO 17025 laboratory documentation.
+Commercially understandable cost-per-sample and instrument positioning.
+14. Proposed Next Steps
+Schedule a technical discussion with NIRA Instruments .
+Review the current analyzer configuration and method flexibility.
+Confirm column compatibility and headspace operating range.
+Define the target cannabis residual solvent panel.
+Agree the collaboration structure: demo unit, discounted pilot purchase, joint development, or regional partnership.
+Install or configure the pilot system.
+Begin proof-of-concept testing and method optimization.
+Generate validation data and application-note material.
+Prepare a commercialization plan for cannabis and agricultural testing markets.
+15. Closing Position
+This project creates a practical bridge between an existing fast residual GC-FID analyzer platform and a new regulated testing market. The collaboration has a clear technical path, a clear commercial rationale, and a realistic opportunity to produce a market-ready analyzer application package.
+The South African cannabis market offers the right pilot environment: emerging demand, limited dedicated testing infrastructure, and a need for cost-effective analytical solutions. By combining the manufacturer’s analyzer platform with the founder’s GC expertise and the proposed lab’s market access, the partnership can create value for both parties.

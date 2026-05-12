@@ -1,0 +1,28 @@
+﻿Cannabis Testing Matrix by Sample Type
+This document summarizes common cannabis product matrices and the standard analytical tests generally required across regulated cannabis markets.
+Key Analytical Categories
+• Potency: THC, THCA, CBD, CBDA, and minor cannabinoids• Residual Solvents: butane, propane, ethanol, pentane, etc.• Terpenes: volatile aroma compounds measured by GC-FID/MS• Pesticides: LC-MS/MS and GC-MS/MS multi-residue screening• Heavy Metals: ICP-MS screening for Pb, Cd, As, Hg
+GC-FID Usage Notes
+GC-FID is highly effective for terpene and residual solvent quantitation. It can also analyze cannabinoids, although HPLC is preferred because cannabinoids thermally decarboxylate in GC systems.
+Typical FID Configuration
+FID Instrument #1:- Headspace GC-FID for residual solventsFID Instrument #2:- Direct injection GC-FID for terpene profiling
+Recommended Terpene Standard Mix
+Myrcene
+Limonene
+α-Pinene
+β-Pinene
+Linalool
+Terpinolene
+Ocimene
+γ-Terpinene
+α-Terpinene
+p-Cymene
+β-Caryophyllene
+α-Humulene
+Farnesene
+Bisabolol
+Nerolidol
+Caryophyllene oxide
+Geraniol
+Borneol
+Reporting units are commonly expressed as mg/g or % w/w. Total terpenes are calculated as the sum of quantified analytes.
