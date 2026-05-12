@@ -5,7 +5,7 @@ Static website demo for AfriCanna Analytics, a South African cannabis analytical
 ## What is included
 
 - Customer-facing one-page website
-- Phase 1 service menu and draft pricing
+- Full-scope service menu and draft pricing
 - Minimal logo options
 - Soft white, grey, and green visual system
 - NIRA-style lab bench reference image
@@ -19,7 +19,7 @@ Static website demo for AfriCanna Analytics, a South African cannabis analytical
 
 This project includes a GitHub Pages workflow. Once pushed to `main`, GitHub Actions can publish the static site as a demo link.
 
-Current demo version: `hero-spacing-v5`
+Current demo version: `full-scope-v6`
 
 ## Launch note
 
