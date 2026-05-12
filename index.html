@@ -16,12 +16,37 @@
       <a class="brand" href="#top" aria-label="AfriCanna Analytics home">
         <img src="assets/logo-africanna-primary.svg" alt="AfriCanna Analytics" />
       </a>
-      <nav aria-label="Primary navigation">
-        <a href="#services">Services</a>
+      <nav class="main-nav" aria-label="Primary navigation">
+        <div class="nav-item nav-item--mega">
+          <a href="#services">Services</a>
+          <div class="mega-menu" aria-label="Services menu">
+            <div>
+              <p>Testing by product</p>
+              <a href="#services">Cannabis flower</a>
+              <a href="#services">Extracts and concentrates</a>
+              <a href="#services">Oils and tinctures</a>
+              <a href="#services">Edibles and beverages</a>
+            </div>
+            <div>
+              <p>Testing panels</p>
+              <a href="#testing-scope">Potency by LC-UV</a>
+              <a href="#testing-scope">Terpene profiling</a>
+              <a href="#testing-scope">Residual solvents</a>
+              <a href="#testing-scope">Phase 2 MS scope</a>
+            </div>
+            <div>
+              <p>Compliance</p>
+              <a href="#pricing">Core release bundle</a>
+              <a href="#methods">Instrument platform</a>
+              <a href="#quality">Quality system</a>
+              <a href="#contact">Start testing</a>
+            </div>
+          </div>
+        </div>
+        <a href="#testing-scope">Testing Scope</a>
         <a href="#pricing">Pricing</a>
-        <a href="#methods">Methods</a>
-        <a href="#samples">Samples</a>
-        <a href="#contact">Submit</a>
+        <a href="#resources">Resources</a>
+        <a class="nav-cta" href="#contact">Start Testing</a>
       </nav>
     </header>
 
@@ -36,6 +61,11 @@
             Clear, defensible cannabis test results for cultivators, extractors, manufacturers,
             and product teams building safer cannabinoid products.
           </p>
+          <div class="hero__proof" aria-label="Laboratory focus">
+            <span>LC-UV potency</span>
+            <span>GC-FID volatiles</span>
+            <span>Phase 2 MS scope</span>
+          </div>
           <div class="hero__actions" aria-label="Primary actions">
             <a class="button button--solid" href="#pricing">View test menu</a>
             <a class="button button--ghost" href="#contact">Start a submission</a>
@@ -51,9 +81,9 @@
           </div>
           <p>
             AfriCanna Analytics is being structured as a lean South African cannabis testing
-            laboratory with a Phase 1 focus on cannabinoid potency, terpene profiling, and residual
-            solvent screening. Phase 2 expands the menu into pesticides, mycotoxins, and heavy
-            metals through LC-MS/MS and ICP-MS capability.
+            laboratory with a Phase 1 focus on cannabinoid potency by LC-UV/HPLC-DAD, terpene
+            profiling, and residual solvent screening. Phase 2 expands the menu into pesticides,
+            mycotoxins, and heavy metals through LC-MS/MS and ICP-MS capability.
           </p>
         </div>
       </section>
@@ -61,25 +91,57 @@
       <section id="services" class="section">
         <div class="wrap">
           <div class="section-heading">
-            <p class="kicker">Core services</p>
-            <h2>Testing panels for flower, extracts, oils, concentrates, and finished products.</h2>
+            <p class="kicker">Testing services</p>
+            <h2>Product-focused lab testing for the South African cannabis supply chain.</h2>
           </div>
 
-          <div class="service-list">
-            <article class="service">
-              <div class="service__number">01</div>
+          <div class="product-grid">
+            <article class="product-card">
+              <span class="lab-icon lab-icon--flower" aria-hidden="true"></span>
+              <h3>Cannabis flower</h3>
+              <p>Potency, terpene profile, moisture planning, and core release testing for dried flower, bud, trim, and biomass.</p>
+            </article>
+            <article class="product-card">
+              <span class="lab-icon lab-icon--drop" aria-hidden="true"></span>
+              <h3>Extracts and concentrates</h3>
+              <p>Residual solvents, potency, terpene profile, and Phase 2 contaminant panels for resin, rosin, distillate, and concentrates.</p>
+            </article>
+            <article class="product-card">
+              <span class="lab-icon lab-icon--vial" aria-hidden="true"></span>
+              <h3>Oils and tinctures</h3>
+              <p>Batch release testing for cannabinoid strength, solvent residue control, and formulation consistency.</p>
+            </article>
+            <article class="product-card">
+              <span class="lab-icon lab-icon--beaker" aria-hidden="true"></span>
+              <h3>Edibles and beverages</h3>
+              <p>Matrix-aware potency and safety panel planning for infused foods, drinks, and finished consumer products.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="testing-scope" class="section section--soft">
+        <div class="wrap">
+          <div class="section-heading">
+            <p class="kicker">Testing scope</p>
+            <h2>A clear service directory, from launch panels to Phase 2 mass spectrometry.</h2>
+          </div>
+
+          <div class="scope-grid">
+            <article class="scope-card">
+              <span class="lab-icon lab-icon--lc" aria-hidden="true"></span>
               <div>
                 <h3>Cannabinoid potency</h3>
                 <p>
-                  HPLC-DAD/PDA analysis for THC, THCA, CBD, CBDA, and selected minor cannabinoids.
+                  LC-UV / HPLC-DAD analysis for THC, THCA, CBD, CBDA, and selected minor cannabinoids.
                   Reports include total THC and total CBD calculations where applicable.
                 </p>
               </div>
-              <p class="service__method">HPLC-DAD</p>
+              <p class="scope-card__method">LC-UV / HPLC-DAD</p>
             </article>
 
-            <article class="service">
-              <div class="service__number">02</div>
+            <article class="scope-card">
+              <span class="lab-icon lab-icon--chrom" aria-hidden="true"></span>
               <div>
                 <h3>Terpene profile</h3>
                 <p>
@@ -88,11 +150,11 @@
                   terpene/terpenoid list.
                 </p>
               </div>
-              <p class="service__method">GC-FID</p>
+              <p class="scope-card__method">GC-FID</p>
             </article>
 
-            <article class="service">
-              <div class="service__number">03</div>
+            <article class="scope-card">
+              <span class="lab-icon lab-icon--solvent" aria-hidden="true"></span>
               <div>
                 <h3>Residual solvents</h3>
                 <p>
@@ -100,20 +162,67 @@
                   concentrates, including hydrocarbons, alcohols, ketones, esters, and aromatics.
                 </p>
               </div>
-              <p class="service__method">HS-GC-FID</p>
+              <p class="scope-card__method">HS-GC-FID</p>
             </article>
 
-            <article class="service">
-              <div class="service__number">04</div>
+            <article class="scope-card">
+              <span class="lab-icon lab-icon--shield" aria-hidden="true"></span>
               <div>
-                <h3>Expanded compliance</h3>
+                <h3>Core release bundle</h3>
                 <p>
-                  Pesticides, mycotoxins, and heavy metals are planned as Phase 2 services using
-                  triple-quadrupole LC-MS/MS and ICP-MS methods as demand and scope expansion
-                  justify the additional instrumentation.
+                  Combined potency, terpene, and residual solvent testing for one practical release
+                  workflow and one Certificate of Analysis.
                 </p>
               </div>
-              <p class="service__method">LC-MS/MS + ICP-MS</p>
+              <p class="scope-card__method">LC + GC</p>
+            </article>
+
+            <article class="scope-card scope-card--phase">
+              <span class="lab-icon lab-icon--ms" aria-hidden="true"></span>
+              <div>
+                <h3>Pesticide screening</h3>
+                <p>
+                  Phase 2 multi-residue pesticide screening using triple-quadrupole LC-MS/MS once
+                  volume, validation, and accreditation scope expansion justify the investment.
+                </p>
+              </div>
+              <p class="scope-card__method">LC-MS/MS</p>
+            </article>
+
+            <article class="scope-card scope-card--phase">
+              <span class="lab-icon lab-icon--ms" aria-hidden="true"></span>
+              <div>
+                <h3>Mycotoxins</h3>
+                <p>
+                  Phase 2 mycotoxin panel planning for flower and finished products, aligned to
+                  validated sample preparation and LC-MS/MS confirmation.
+                </p>
+              </div>
+              <p class="scope-card__method">LC-MS/MS</p>
+            </article>
+
+            <article class="scope-card scope-card--phase">
+              <span class="lab-icon lab-icon--metal" aria-hidden="true"></span>
+              <div>
+                <h3>Heavy metals</h3>
+                <p>
+                  Phase 2 ICP-MS screening for lead, cadmium, arsenic, mercury, and selected
+                  elemental contaminants after digestion method validation.
+                </p>
+              </div>
+              <p class="scope-card__method">ICP-MS</p>
+            </article>
+
+            <article class="scope-card scope-card--phase">
+              <span class="lab-icon lab-icon--matrix" aria-hidden="true"></span>
+              <div>
+                <h3>Moisture and stability planning</h3>
+                <p>
+                  Planned support for water activity, moisture, shelf-life, and matrix-specific
+                  stability studies as the laboratory scope matures.
+                </p>
+              </div>
+              <p class="scope-card__method">Planned</p>
             </article>
           </div>
         </div>
@@ -142,7 +251,7 @@
             <div class="price-row" role="row">
               <span role="cell">Potency profile</span>
               <span role="cell">THC, THCA, CBD, CBDA, selected minors, totals</span>
-              <span role="cell">HPLC-DAD</span>
+              <span role="cell">LC-UV / HPLC-DAD</span>
               <span role="cell">2-4 working days</span>
               <span role="cell">R1,200</span>
             </div>
@@ -163,7 +272,7 @@
             <div class="price-row price-row--highlight" role="row">
               <span role="cell">Core release bundle</span>
               <span role="cell">Potency + terpenes + residual solvents on one CoA</span>
-              <span role="cell">HPLC + GC</span>
+              <span role="cell">LC-UV + GC</span>
               <span role="cell">4-6 working days</span>
               <span role="cell">R3,000</span>
             </div>
@@ -184,7 +293,7 @@
             <div class="price-row" role="row">
               <span role="cell">Full compliance bundle</span>
               <span role="cell">Core chemistry + pesticides + heavy metals</span>
-              <span role="cell">HPLC + GC + MS</span>
+              <span role="cell">LC-UV + GC + MS</span>
               <span role="cell">Quoted</span>
               <span role="cell">from R6,500</span>
             </div>
@@ -203,9 +312,9 @@
             <p class="kicker">Instrument platform</p>
             <h2>Lean Phase 1 chemistry with a route into mass spectrometry.</h2>
             <p>
-              Phase 1 uses two GC-FID systems and HPLC-DAD to cover the highest-demand cannabis
-              chemistry without overcomplicating launch operations. The planned Phase 2 build adds
-              LC-MS/MS and ICP-MS for contaminant compliance.
+              Phase 1 uses LC-UV/HPLC-DAD for cannabinoid potency, plus two GC-FID systems for
+              terpene profiling and residual solvent testing. Phase 2 adds LC-MS/MS for pesticides
+              and mycotoxins, and ICP-MS for heavy metals.
             </p>
           </div>
 
@@ -219,7 +328,7 @@
               <span class="instrument__stack"></span>
               <span class="instrument__stack"></span>
               <span class="instrument__stack"></span>
-              <p>HPLC-DAD</p>
+              <p>LC-UV</p>
             </div>
             <div class="instrument instrument--ms">
               <span class="instrument__tower"></span>
@@ -252,7 +361,7 @@
           <article>
             <h3>Potency</h3>
             <p>
-              HPLC-DAD is preferred for acidic and neutral cannabinoids because it avoids the
+              LC-UV/HPLC-DAD is preferred for acidic and neutral cannabinoids because it avoids the
               thermal decarboxylation risk associated with GC-only potency workflows.
             </p>
           </article>
@@ -322,7 +431,7 @@
         </div>
       </section>
 
-      <section class="section section--quality">
+      <section id="quality" class="section section--quality">
         <div class="wrap quality-grid">
           <div>
             <p class="kicker">Quality system</p>
@@ -343,11 +452,26 @@
         </div>
       </section>
 
+      <section id="resources" class="section resources">
+        <div class="wrap resources-grid">
+          <div>
+            <p class="kicker">Resources</p>
+            <h2>Client-facing tools for cleaner submissions and clearer CoAs.</h2>
+          </div>
+          <div class="resource-list">
+            <a href="#contact">How to start testing</a>
+            <a href="#samples">Sample types and packaging</a>
+            <a href="#methods">How to read a Certificate of Analysis</a>
+            <a href="#quality">Quality and accreditation readiness</a>
+          </div>
+        </div>
+      </section>
+
       <section id="contact" class="section contact">
         <div class="wrap contact-grid">
           <div>
             <p class="kicker">Start a submission</p>
-            <h2>Send the sample details and we’ll prepare the right panel.</h2>
+            <h2>Send the sample details and we'll prepare the right panel.</h2>
             <p>
               For now, use this form as the website structure. It can be connected later to email,
               WhatsApp, a booking system, or a LIMS intake workflow.
@@ -386,11 +510,24 @@
           </p>
         </div>
         <div>
-          <p class="footer-title">Launch note</p>
-          <p>
-            Website draft for brand and service development. Licensing, accredited scope, final
-            prices, and sample acceptance terms must be confirmed before public launch.
-          </p>
+          <p class="footer-title">Services</p>
+          <a href="#services">Cannabis flower</a>
+          <a href="#services">Extracts and concentrates</a>
+          <a href="#services">Oils and tinctures</a>
+          <a href="#services">Edibles and beverages</a>
+        </div>
+        <div>
+          <p class="footer-title">Testing Scope</p>
+          <a href="#testing-scope">Potency by LC-UV</a>
+          <a href="#testing-scope">Terpenes by GC-FID</a>
+          <a href="#testing-scope">Residual solvents</a>
+          <a href="#testing-scope">Phase 2 MS panels</a>
+        </div>
+        <div>
+          <p class="footer-title">AfriCanna</p>
+          <a href="#quality">Quality system</a>
+          <a href="#resources">Resources</a>
+          <a href="#contact">Start testing</a>
         </div>
       </div>
     </footer>
