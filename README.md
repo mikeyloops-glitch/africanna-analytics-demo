@@ -19,10 +19,6 @@ Static website demo for AfriCanna Analytics, a South African cannabis analytical
 
 This project includes a GitHub Pages workflow. Once pushed to `main`, GitHub Actions can publish the static site as a demo link.
 
-Recommended GitHub repository name: `africanna-analytics-dem`
-
-Expected demo URL: `https://mikeyloops-glitch.github.io/africanna-analytics-dem/?v=pricing-v12`
-
 Current demo version: `pricing-v12`
 
 ## Launch note
