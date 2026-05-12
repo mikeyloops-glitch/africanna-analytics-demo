@@ -5,7 +5,7 @@ Static website demo for AfriCanna Analytics, a South African cannabis analytical
 ## What is included
 
 - Customer-facing one-page website
-- Full-scope service menu and draft pricing
+- Complete cannabis testing service menu and draft pricing
 - Minimal logo options
 - Soft white, grey, and green visual system
 - NIRA-style lab bench reference image
@@ -19,7 +19,7 @@ Static website demo for AfriCanna Analytics, a South African cannabis analytical
 
 This project includes a GitHub Pages workflow. Once pushed to `main`, GitHub Actions can publish the static site as a demo link.
 
-Current demo version: `full-scope-v7`
+Current demo version: `complete-scope-v8`
 
 ## Launch note
 
