@@ -1,8 +1,8 @@
-# AfriCanna Analytics Pricing Benchmark
+# SAGE Analytics Pricing Benchmark
 
 Updated: 2026-05-12
 
-This pricing note supports a middle-to-upper launch position for AfriCanna Analytics. The public website pricing should still be confirmed against final method validation, sample preparation cost, batch volumes, courier model, VAT treatment, and accredited scope.
+This pricing note supports a middle-to-upper launch position for SAGE Analytics. The public website pricing should still be confirmed against final method validation, sample preparation cost, batch volumes, courier model, VAT treatment, and accredited scope.
 
 ## Public Benchmark Notes
 
@@ -13,7 +13,7 @@ This pricing note supports a middle-to-upper launch position for AfriCanna Analy
 
 ## Recommended Launch Position
 
-AfriCanna should avoid racing to the cheapest public South African prices. The sharper positioning is fast, clean reporting, premium sample handling, and a clear full-chemistry service menu:
+SAGE Analytics should avoid racing to the cheapest public South African prices. The sharper positioning is fast, clean reporting, premium sample handling, and a clear full-chemistry service menu:
 
 - Potency profile: R1,450
 - Terpene profile: R1,350
