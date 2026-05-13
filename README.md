@@ -1,8 +1,8 @@
-# SAGE Analytics
+# S.A.G.E. Analytics
 
-Static website demo for SAGE Analytics, a South African cannabis analytical testing laboratory concept.
+Static website demo for S.A.G.E. Analytics, a South African cannabis analytical testing laboratory concept.
 
-SAGE stands for Scientific Analysis for Green Excellence.
+S.A.G.E. stands for Scientific Analysis for Green Excellence.
 
 ## What is included
 
@@ -23,9 +23,9 @@ This project includes a GitHub Pages workflow. Once pushed to `main`, GitHub Act
 
 Recommended GitHub repository name: `sage-analytics-dem`
 
-Expected demo URL: `https://mikeyloops-glitch.github.io/sage-analytics-dem/?v=sage-v13`
+Expected demo URL: `https://mikeyloops-glitch.github.io/sage-analytics-dem/?v=sage-v14`
 
-Current demo version: `sage-v13`
+Current demo version: `sage-v14`
 
 ## Launch note
 
